@@ -2,8 +2,9 @@
 " NerdTree init, my configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap <silent> <F1> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTree
-autocmd VimEnter * wincmd l
+" para iniciar com o tree aberto
+" autocmd vimenter * NERDTree
+" autocmd VimEnter * wincmd l
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -19,9 +20,9 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" vim-autoformat
+" vim-autoformat, not use
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-noremap <F3> :Autoformat<CR>
+" noremap <F3> :Autoformat<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => CTRL-P
@@ -55,43 +56,38 @@ func! SyntasticCheckCoffeescript() " Custom CoffeeScript SyntasticCheck
 endfunc
 nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 
-""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YankStack
-""""""""""""""""""""""""""""""
-nmap <c-p> <Plug>yankstack_substitute_older_paste
-nmap <c-P> <Plug>yankstack_substitute_newer_paste
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"nmap <c-p> <Plug>yankstack_substitute_older_paste
+"nmap <c-P> <Plug>yankstack_substitute_newer_paste
 
-""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => snipMate (beside <TAB> support <CTRL-j>)
-""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
 snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => lightline
+" => Vim Line tabs enable!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
 
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ 'active': {
-      \   'left': [ ['mode', 'paste'],
-      \             ['fugitive', 'readonly', 'filename', 'modified'] ],
-      \   'right': [ [ 'lineinfo' ], ['percent'] ]
-      \ },
-      \ 'component': {
-      \   'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
-      \   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
-      \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'
-      \ },
-      \ 'component_visible_condition': {
-      \   'readonly': '(&filetype!="help"&& &readonly)',
-      \   'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
-      \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
-      \ },
-      \ 'separator': { 'left': ' ', 'right': ' ' },
-      \ 'subseparator': { 'left': ' ', 'right': ' ' }
-      \ }
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => TagBar
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <F8> :TagbarToggle<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => neocomplete
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:neocomplete#enable_at_startup = 1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => flake8
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:PyFlakeCWindow = 0 

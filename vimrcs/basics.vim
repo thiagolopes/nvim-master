@@ -34,10 +34,12 @@ nmap # #zz
 nmap g* g*zz
 nmap g# g#zz
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enable number lines
+set number
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
@@ -102,8 +104,13 @@ set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
-    set guitablabel=%M\ %t
-    set guifont=Menlo\ 11
+set guifont=Hack\ 11
+    set guioptions-=r
+    set guioptions-=R
+    set guioptions-=l
+    set guioptions-=m
+    set guioptions-=T
+    set guioptions-=L
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -120,7 +127,6 @@ set nobackup
 set nowb
 set noswapfile
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -134,12 +140,11 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-" Linebreak on 500 characters
+" Linebreak on 100 characters
 set lbr
-set tw=500
+set tw=100
 
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
-
 

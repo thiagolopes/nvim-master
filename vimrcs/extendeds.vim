@@ -5,7 +5,6 @@
 set guioptions-=r
 set guioptions-=R
 set guioptions-=l
-set guioptions-=L
 set guioptions-=m
 set guioptions-=T
 set guioptions-=L
@@ -13,7 +12,7 @@ set guioptions-=L
 " Colorscheme
 set background=dark
 " colorscheme peaksea
-colorscheme base16-default-dark
+colorscheme base16-3024 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
@@ -90,11 +89,18 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Navegacao
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"Desabilitar arrows
+" Desabilitar arrows
 noremap  <Up> ""
 noremap  <Down> ""
 noremap  <Left> ""
 noremap  <Right> ""
+
+" Navegar entre os Buffs
+nmap <C-h> :bprevious<CR>
+nmap <C-l> :bnext<CR>
+
+" Fechar buff
+map <F2> :bd<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CRTL+C ou CRTL+V
