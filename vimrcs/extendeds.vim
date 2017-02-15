@@ -18,8 +18,8 @@ colorscheme base16-default-dark
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>e :e! ~/.vimconfigs/my_configs.vim<cr>
-autocmd! bufwritepost vimrc source ~/.vimconfigs/my_configs.vim
+map <leader>e :e! ~/.vimconfigs/vimrcs/*.vim<cr>
+autocmd! bufwritepost vimrc source ~/.vimconfigs/vimrcs/*.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Turn persistent undo on
@@ -77,18 +77,15 @@ inoremap $4 {<esc>o}<esc>O
 inoremap $q ''<esc>i
 inoremap $e ""<esc>i
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General abbreviations
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Omni complete functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Navegacao
@@ -99,19 +96,15 @@ noremap  <Down> ""
 noremap  <Left> ""
 noremap  <Right> ""
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CRTL+C ou CRTL+V
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CTRL-X and SHIFT-Del are Cut
 vnoremap <C-X> "+x
-
 " CTRL-C and CTRL-Insert are Copy
 vnoremap <C-C> "+y
-
 " CTRL-V and SHIFT-Insert are Paste
 map <C-V> "+gP
-
 cmap <C-V>      <C-R>+
 cmap <S-Insert>     <C-R>+
 
@@ -120,6 +113,5 @@ exe 'vnoremap <script> <C-V>' paste#paste_cmd['v']
 
 imap <S-Insert>     <C-V>
 vmap <S-Insert>     <C-V>
-
 " Use CTRL-Q to do what CTRL-V used to do
 noremap <C-Q> <C-V>

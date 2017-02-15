@@ -51,7 +51,7 @@ set wildignore=*.o,*~,*.pyc
 set ruler
 
 " Height of the command bar
-set cmdheight=2
+set cmdheight=1
 
 " A buffer becomes hidden when it is abandoned
 set hid
@@ -80,6 +80,7 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch
+
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
@@ -97,13 +98,10 @@ set scrolloff=999
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable
-
-colorscheme desert
 set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
-    set t_Co=256
     set guitablabel=%M\ %t
     set guifont=Menlo\ 11
 endif
@@ -113,7 +111,6 @@ set encoding=utf8
 
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
