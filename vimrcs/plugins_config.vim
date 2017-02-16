@@ -91,3 +91,8 @@ let g:neocomplete#enable_at_startup = 1
 " => flake8
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:PyFlakeCWindow = 0 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => SCSS syntax
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+au BufRead,BufNewFile *.scss set filetype=scss.css

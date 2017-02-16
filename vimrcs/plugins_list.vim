@@ -13,13 +13,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 " Plug 'itchyny/lightline.vim'
-Plug 'Shougo/neocomplcache.vim'
+Plug 'Shougo/neocomplete.vim'
 
 """"""""""""""""""""""
 " => Front-End
 """"""""""""""""""""""
 Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'jelera/vim-javascript-syntax'
 
 """"""""""""""""""""""
 " => vim-snipmate
@@ -33,6 +35,7 @@ Plug 'tomtom/tlib_vim'
 """"""""""""""""""""""
 Plug 'vim-scripts/peaksea'
 Plug 'chriskempson/base16-vim'
+Plug 'w0ng/vim-hybrid'
 
 """"""""""""""""""""""
 " => Tricks
