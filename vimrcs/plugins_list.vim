@@ -12,8 +12,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
-" Plug 'itchyny/lightline.vim'
-Plug 'Shougo/neocomplete.vim'
 
 """"""""""""""""""""""
 " => Front-End
@@ -46,8 +44,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-scripts/mru.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'scrooloose/nerdcommenter'
-" Plug 'Chiel92/vim-autoformat'
+Plug 'Chiel92/vim-autoformat'
 Plug 'majutsushi/tagbar'
+Plug 'vim-scripts/Ranger.vim'
 
 """"""""""""""""""""""
 " => Test
@@ -60,6 +59,8 @@ Plug 'vim-scripts/bufexplorer.zip'
 " => Python
 """"""""""""""""""""""
 Plug 'andviro/flake8-vim'
+Plug 'davidhalter/jedi-vim'
+Plug 'django.vim'
 
 call plug#end()
 " end vim-plug

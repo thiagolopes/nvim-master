@@ -11,7 +11,7 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-" colorscheme peaksea
+"colorscheme peaksea
 colorscheme base16-3024 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -53,9 +53,9 @@ cnoremap <C-P> <Up>
 cnoremap <C-N> <Down>
 
 " Map ½ to something useful
-map ½ $
-cmap ½ $
-imap ½ $
+"map ½ $
+"cmap ½ $
+"imap ½ $
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

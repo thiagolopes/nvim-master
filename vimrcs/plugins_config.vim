@@ -22,7 +22,7 @@ let g:syntastic_check_on_wq = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-autoformat, not use
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" noremap <F3> :Autoformat<CR>
+noremap <F3> :Autoformat<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => CTRL-P
@@ -46,7 +46,7 @@ let g:multi_cursor_next_key="\<C-s>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes'] " Python
 let g:syntastic_javascript_checkers = ['jshint'] " Javascript
-let g:syntastic_auto_loc_list = 1 " Go
+let g:syntastic_auto_loc_list = 0 " Go
 let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 func! SyntasticCheckCoffeescript() " Custom CoffeeScript SyntasticCheck
     let l:filename = substitute(expand("%:p"), '\(\w\+\)\.coffee', '.coffee.\1.js', '')
@@ -54,7 +54,7 @@ func! SyntasticCheckCoffeescript() " Custom CoffeeScript SyntasticCheck
     execute "SyntasticCheck"
     execute "Errors"
 endfunc
-nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
+" nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => YankStack
@@ -85,14 +85,20 @@ nmap <F8> :TagbarToggle<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => neocomplete
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:neocomplete#enable_at_startup = 1
+" let g:neocomplete#enable_at_startup = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => flake8
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:PyFlakeCWindow = 0 
+let g:PyFlakeForcePyVersion = 3
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SCSS syntax
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 au BufRead,BufNewFile *.scss set filetype=scss.css
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => nerdcommenter
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:NERDSpaceDelims = 0
