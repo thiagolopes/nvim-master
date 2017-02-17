@@ -34,6 +34,7 @@ Plug 'tomtom/tlib_vim'
 Plug 'vim-scripts/peaksea'
 Plug 'chriskempson/base16-vim'
 Plug 'w0ng/vim-hybrid'
+Plug 'sickill/vim-monokai'
 
 """"""""""""""""""""""
 " => Tricks
