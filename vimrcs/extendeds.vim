@@ -12,7 +12,8 @@ set guioptions-=L
 " Colorscheme
 set background=dark
 "colorscheme peaksea
-colorscheme base16-3024 
+"colorscheme base16-3024 
+colorscheme monokai-phoenix
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs

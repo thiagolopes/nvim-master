@@ -85,13 +85,14 @@ nmap <F8> :TagbarToggle<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => neocomplete
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#enable_at_startup = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => flake8
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:PyFlakeCWindow = 0 
 let g:PyFlakeForcePyVersion = 3
+autocmd FileType python map <buffer> <F7> :call Flake8()<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SCSS syntax
@@ -102,3 +103,10 @@ au BufRead,BufNewFile *.scss set filetype=scss.css
 " => nerdcommenter
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDSpaceDelims = 0
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => pep8-text-width
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:pep8_text_width = 79 " Default 79
+

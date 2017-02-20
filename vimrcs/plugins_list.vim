@@ -12,6 +12,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
+Plug 'Shougo/neocomplete.vim'
+Plug 'tpope/vim-surround' 
 
 """"""""""""""""""""""
 " => Front-End
@@ -35,6 +37,13 @@ Plug 'vim-scripts/peaksea'
 Plug 'chriskempson/base16-vim'
 Plug 'w0ng/vim-hybrid'
 Plug 'sickill/vim-monokai'
+Plug 'marcopaganini/termschool-vim-theme' 
+Plug 'monkoose/boa.vim'
+Plug 'crater2150/vim-theme-chroma'
+Plug 'joshdick/onedark.vim'
+Plug 'agude/vim-eldar'
+Plug 'reewr/vim-monokai-phoenix'
+Plug 'nanotech/jellybeans.vim'
 
 """"""""""""""""""""""
 " => Tricks
@@ -62,6 +71,8 @@ Plug 'vim-scripts/bufexplorer.zip'
 Plug 'andviro/flake8-vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'django.vim'
+Plug 'jimf/vim-pep8-text-width'
+Plug 'Vimjas/vim-python-pep8-indent'
 
 call plug#end()
 " end vim-plug
