@@ -19,9 +19,10 @@ Plug 'tpope/vim-surround'
 " => Front-End
 """"""""""""""""""""""
 Plug 'mattn/emmet-vim'
-Plug 'ap/vim-css-color'
-Plug 'cakebaker/scss-syntax.vim'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'gorodinskiy/vim-coloresque'
+Plug 'tpope/vim-haml'
 
 """"""""""""""""""""""
 " => vim-snipmate
@@ -64,6 +65,7 @@ Plug 'vim-scripts/Ranger.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-scripts/bufexplorer.zip'
 " Plug 'vim-scripts/YankRing.vim'
+Plug 'metakirby5/codi.vim'
 
 """"""""""""""""""""""
 " => Python
