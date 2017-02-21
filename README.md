@@ -6,9 +6,9 @@
 
 ### How to use?
 
-* Move vim-master folder to `~/.vimconfigs`
+* Move (rename) vim-master folder to `~/.vimconfigs`
 * `cd .vimconfigs` and run script to install `sh install-vim.sh`    
-* Run vim and run `:PlugInstall`
+* Run vim: `vim -c ':PlugInstall'`
 * Enjoy
 
 ### Requeriments
