@@ -1,2 +1,4 @@
-/undodir/**
-/plugged/**/*
+undodir/*
+!undodir/README.md
+plugged/*
+!plugged
