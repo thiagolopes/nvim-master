@@ -2,15 +2,16 @@
 
 **(Project not finalized)**
 
-![logo](https://manjarobrasil.files.wordpress.com/2015/08/vim.png)
+![logo](https://www.unixstickers.com/image/data/stickers/vim/VIM%20mashup.sh.png)
 
 ### How to use?
 
-* 1 `cd vim-master && sh install-vim.sh`    
-* 2 Run vim and run `:PlugInstall`
-* 3 Enjoy
+* Move vim-master folder to `~/.vimconfigs`
+* `cd .vimconfigs` and run script to install `sh install-vim.sh`    
+* Run vim and run `:PlugInstall`
+* Enjoy
 
 ### Requeriments
 
 * Hack Fonts!
-* Gvim!
+* `exuberant-ctags` on Debian
