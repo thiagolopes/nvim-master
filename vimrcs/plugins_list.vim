@@ -12,7 +12,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
-Plug 'Shougo/neocomplete.vim'
+"Plug 'Shougo/neocomplete.vim'
 Plug 'tpope/vim-surround' 
 
 """"""""""""""""""""""
@@ -70,11 +70,13 @@ Plug 'metakirby5/codi.vim'
 """"""""""""""""""""""
 " => Python
 """"""""""""""""""""""
-Plug 'andviro/flake8-vim'
-Plug 'davidhalter/jedi-vim'
+"Plug 'andviro/flake8-vim'
+"Plug 'davidhalter/jedi-vim'
 Plug 'django.vim'
 Plug 'jimf/vim-pep8-text-width'
 Plug 'Vimjas/vim-python-pep8-indent'
+"Plug 'python-mode/python-mode'
+Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
 " end vim-plug

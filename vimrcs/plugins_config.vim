@@ -86,33 +86,33 @@ nmap <F8> :TagbarToggle<CR>
 " => neocomplete
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-" Use smartcase.
-let g:neocomplete#enable_smart_case = 1
-" Set minimum syntax keyword length.
-let g:neocomplete#sources#syntax#min_keyword_length = 2
+"let g:neocomplete#enable_at_startup = 1
+"" Use smartcase.
+"let g:neocomplete#enable_smart_case = 1
+"" Set minimum syntax keyword length.
+"let g:neocomplete#sources#syntax#min_keyword_length = 2
 
-" <TAB>: completion.
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-" <C-h>, <BS>: close popup and delete backword char.
-"inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
-"inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
-" Close popup by <Space>.
-"inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
-"
-" Enable omni completion.
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+"" <TAB>: completion.
+"inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+"" <C-h>, <BS>: close popup and delete backword char.
+""inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
+""inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
+"" Close popup by <Space>.
+""inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
+""
+"" Enable omni completion.
+"autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+"autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+"autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+"autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+"autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => flake8
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:PyFlakeCWindow = 0 
-let g:PyFlakeForcePyVersion = 3
-autocmd FileType python map <buffer> <F7> :call Flake8()<CR>
+"let g:PyFlakeCWindow = 0 
+"let g:PyFlakeForcePyVersion = 3
+"autocmd FileType python map <buffer> <F7> :call Flake8()<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SCSS syntax
@@ -124,9 +124,15 @@ au BufRead,BufNewFile *.scss set filetype=scss.css
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDSpaceDelims = 0
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pep8-text-width
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:pep8_text_width = 79 " Default 79
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Youcompleteme
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:ycm_add_preview_to_completeopt = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
 
