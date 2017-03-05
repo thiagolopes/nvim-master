@@ -88,15 +88,15 @@ iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Navegacao
+" Navigation
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Desabilitar arrows
+" Disable arrows
 noremap  <Up> ""
 noremap  <Down> ""
 noremap  <Left> ""
 noremap  <Right> ""
 
-" Navegar entre os Buffs
+" Navigate through buffs
 nmap <C-h> :bprevious<CR>
 nmap <C-l> :bnext<CR>
 
@@ -104,7 +104,7 @@ nmap <C-l> :bnext<CR>
 map <F2> :bd<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" CRTL+C ou CRTL+V
+" CRTL+C or CRTL+V
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CTRL-X and SHIFT-Del are Cut
 vnoremap <C-X> "+x

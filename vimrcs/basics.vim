@@ -19,14 +19,14 @@ let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
-" Sai fora na marra!
+" Close vim forced
 imap <F12> <esc>:wqa!<cr>
 map <F12> :wqa!<cr>
 
-" Abreviacoes uteis para sua sanidade mental
+" Ignore case in some commands
 cab W w| cab Q q| cab Wq wq| cab wQ wq| cab WQ wq
 
-" Faz os resultados da busca aparecerem no meio da tela
+" Make search results keep vertically centralized
 nmap n nzz
 nmap N Nzz
 nmap * *zz
@@ -43,7 +43,7 @@ set number
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
-" Turn on the WiLd menu
+" Turn on the Wild menu
 set wildmenu
 
 " Ignore compiled files
@@ -92,7 +92,7 @@ set novisualbell
 set t_vb=
 set tm=500
 
-" Deixar linha no centro
+" Keeps active line vertically centralized
 set scrolloff=999
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -144,7 +144,7 @@ set tabstop=4
 set lbr
 set tw=100
 
-set ai "Auto indent
-set si "Smart indent
-set wrap "Wrap lines
+set ai " Auto indent
+set si " Smart indent
+set wrap " Wrap lines
 
