@@ -1,3 +1,4 @@
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -96,12 +97,8 @@ set tm=500
 set scrolloff=999
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Colors and Fonts
+" => Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Enable syntax highlighting
-syntax enable
-set background=dark
-
 " Set extra options when running in GUI mode
 if has("gui_running")
 set guifont=Hack\ 11
@@ -147,4 +144,3 @@ set tw=100
 set ai " Auto indent
 set si " Smart indent
 set wrap " Wrap lines
-
