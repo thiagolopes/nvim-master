@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""""""""""""""
-" Testes antes de entrar no configs padroes
+" Testing configs. Not present in default configs
 """"""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""
@@ -182,7 +182,7 @@ endfunction
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Mudando o cursor no mode NORMAL e INSERT
+" => Change cursor to NORMAL and INSERT mode
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 if exists('$TMUX')
