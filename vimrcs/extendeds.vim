@@ -1,3 +1,4 @@
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GUI related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -8,12 +9,6 @@ set guioptions-=l
 set guioptions-=m
 set guioptions-=T
 set guioptions-=L
-
-" Colorscheme
-set background=dark
-"colorscheme peaksea
-"colorscheme base16-3024 
-colorscheme monokai-phoenix
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
@@ -52,11 +47,6 @@ cnoremap <C-K>      <C-U>
 
 cnoremap <C-P> <Up>
 cnoremap <C-N> <Down>
-
-" Map ½ to something useful
-"map ½ $
-"cmap ½ $
-"imap ½ $
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
