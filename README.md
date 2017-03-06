@@ -1,9 +1,13 @@
-# Vim Master, the master configs
+```
+__     _____ __  __   __  __    _    ____ _____ _____ ____  
+\ \   / /_ _|  \/  | |  \/  |  / \  / ___|_   _| ____|  _ \ 
+ \ \ / / | || |\/| | | |\/| | / _ \ \___ \ | | |  _| | |_) |
+  \ V /  | || |  | | | |  | |/ ___ \ ___) || | | |___|  _ < 
+   \_/  |___|_|  |_| |_|  |_/_/   \_\____/ |_| |_____|_| \_\
+```
 
-**(Project not finalized)**
-
-![logo](https://www.unixstickers.com/image/data/stickers/vim/VIM%20mashup.sh.png)
-
+# the master configs for hackers
+                                                            
 
 ### Install
 The process below will write/change the `.vimrc` file content.
@@ -36,4 +40,10 @@ $ rm -r ~/.vimconfigs/plugged
 ### Requeriments
 
 * [Hack](https://github.com/chrissimpkins/Hack) Fonts!
-* `exuberant-ctags` on Debian
+* `exuberant-ctags` on DEB/RPM distros
+
+#### Thanks: 
+* [Inspiration in amix repo](https://github.com/amix/vimrc) 
+* [Vim Bootstrap, reference of most used plugins](https://github.com/avelino/vim-bootstrap)
+* [Vim awesome for the top list plugins](http://vimawesome.com)
+* For all who contributed
