@@ -76,3 +76,8 @@ func! SyntasticCheckCoffeescript() " Custom CoffeeScript SyntasticCheck
     execute "Errors"
 endfunc
 " nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Airline Theme set!
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:airline_theme='jellybeans'
