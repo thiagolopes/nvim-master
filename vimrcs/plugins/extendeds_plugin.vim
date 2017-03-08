@@ -12,6 +12,13 @@ Plug 'vim-scripts/Ranger.vim'
 Plug 'vim-scripts/bufexplorer.zip'
 Plug 'metakirby5/codi.vim'
 
+""""""""""""""""""""""
+" Guide lines
+""""""""""""""""""""""
+Plug 'nathanaelkane/vim-indent-guides'
+
+let g:indent_guides_guide_size = 1
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-autoformat, not use
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
