@@ -41,6 +41,8 @@ $ rm -r ~/.vimconfigs/plugged
 
 * [Hack](https://github.com/chrissimpkins/Hack) Fonts!
 * `exuberant-ctags` on DEB/RPM distros
+* Make sure you have `vim-gtk` or `vim-gnome` package installed so copy and paste can work well
+with system's clipboard
 
 #### Thanks: 
 * [Inspiration in amix repo](https://github.com/amix/vimrc) 
