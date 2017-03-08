@@ -2,6 +2,7 @@
 " => Basic
 """"""""""""""""""""""
 Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
@@ -29,10 +30,10 @@ Plug 'vim-syntastic/syntastic'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " NerdTree init, my configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:nerdtree_tabs_focus_on_files=1
+let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$', '\.bak$', '\~$']
+let NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__']
 nmap <silent> <F1> :NERDTreeToggle<CR>
-" autocmd vimenter * NERDTree
-" autocmd VimEnter * wincmd l
-let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vim Line tabs enable!

@@ -48,7 +48,7 @@ set so=7
 set wildmenu
 
 " Ignore compiled files
-set wildignore=*.o,*~,*.pyc
+set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
 
 "Always show current position
 set ruler
@@ -111,7 +111,9 @@ set guifont=Hack\ 11
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
-set encoding=utf8
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
 
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
@@ -136,10 +138,6 @@ set smarttab
 " 1 tab == 4 spaces
 set shiftwidth=4
 set tabstop=4
-
-" Linebreak on 100 characters
-set lbr
-set tw=100
 
 set ai " Auto indent
 set si " Smart indent
