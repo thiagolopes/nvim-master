@@ -8,6 +8,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/bufexplorer.zip'
 Plug 'jiangmiao/auto-pairs'
+Plug 'moll/vim-bbye'
 
 """"""""""""""""""""""
 " => Git
@@ -83,3 +84,6 @@ endfunc
 " Airline Theme set!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline_theme='jellybeans'
+
+" Fechar buff
+map <F2> :Bd<cr>
