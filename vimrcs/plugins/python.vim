@@ -7,6 +7,7 @@ Plug 'django.vim'
 Plug 'jimf/vim-pep8-text-width'
 Plug 'Vimjas/vim-python-pep8-indent'
 "Plug 'python-mode/python-mode'
+Plug 'sentientmachine/Pretty-Vim-Python/'
 
 """"""""""""""""""""""""""""""
 " => Python config

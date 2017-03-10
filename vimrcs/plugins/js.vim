@@ -1,4 +1,9 @@
 """"""""""""""""""""""""""""""
+"Plugins
+""""""""""""""""""""""""""""""
+Plug 'jelera/vim-javascript-syntax'
+
+""""""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
 au FileType javascript call JavaScriptFold()
