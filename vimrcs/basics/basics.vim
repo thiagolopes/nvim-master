@@ -141,4 +141,8 @@ set tabstop=4
 
 set ai " Auto indent
 set si " Smart indent
-set wrap " Wrap lines
+
+" Word wrapping, but line breaks only when Enter is pressed
+set wrap
+set linebreak
+set nolist
