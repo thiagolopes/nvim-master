@@ -81,6 +81,8 @@ source ~/.vimconfigs/vimrcs/basics/colors.vim
 
 # create undodir
 mkdir undodir
+touch ~/.vimconfigs/vimrcs/my_configs.vim
+touch ~/.vimconfigs/vimrcs/my_plugins.vim
 
 vim -c ":PlugInstall|:qa"
 
