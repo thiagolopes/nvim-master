@@ -16,13 +16,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 """"""""""""""""""""""
-" => vim-snipmate
-""""""""""""""""""""""
-Plug 'garbas/vim-snipmate'
-Plug 'marcweber/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
-
-""""""""""""""""""""""
 " => Syntastic
 """"""""""""""""""""""
 Plug 'vim-syntastic/syntastic'
@@ -43,12 +36,6 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => snipMate (beside <TAB> support <CTRL-j>)
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
-snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " syntatic config
