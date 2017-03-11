@@ -43,6 +43,7 @@ $ rm -r ~/.vimconfigs/plugged
 * `exuberant-ctags` on DEB/RPM distros
 * Make sure you have `vim-gtk` or `vim-gnome` package installed so copy and paste can work well
 with system's clipboard
+* flake8 is needed to Python checks.
 
 #### Thanks: 
 * [Inspiration in amix repo](https://github.com/amix/vimrc) 
