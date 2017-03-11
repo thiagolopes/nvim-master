@@ -18,56 +18,56 @@ source ~/.vimconfigs/vimrcs/plugins/extendeds_plugin.vim
 source ~/.vimconfigs/vimrcs/plugins/colorschemes.vim
 ' > ~/.vimrc
 
-read -p 'Do you want to enable syntax and colorscheme (monokai)? (y/n): ' colorscheme 
-read -p 'Do you want to enable Python support? (y/n): ' python_support
-read -p 'Do you want to enable Javascript support? (y/n): ' js_support
-read -p 'Do you want to enable frontend support? (y/n): ' frontend_support
-read -p 'Do you want to enable YouCompleteMe (autocomplete) support? (y/n): ' autocomplete_support
-read -p 'Do you want to enable beta features? (y/n): ' beta_support
+read -p '==> Do you want to enable syntax and colorscheme (monokai)? (y/n): ' colorscheme 
+read -p '==> Do you want to enable Python support? (y/n): ' python_support
+read -p '==> Do you want to enable Javascript support? (y/n): ' js_support
+read -p '==> Do you want to enable frontend support? (y/n): ' frontend_support
+read -p '==> Do you want to enable YouCompleteMe (autocomplete) support? (y/n): ' autocomplete_support
+read -p '==> Do you want to enable beta features? (y/n): ' beta_support
 
 if [ $python_support = "y" ]
 then
     echo '" symbolic link for python suport' >> ~/.vimrc
     echo 'source ~/.vimconfigs/vimrcs/plugins/python.vim' >> ~/.vimrc
-    echo 'Python support enabled.'
+    echo '[+] Python support enabled.'
 else
-    echo 'Python support disabled.'
+    echo '[-] Python support disabled.'
 fi
 
 if [ $js_support = "y" ]
 then
     echo '" symbolic link for javascript suport' >> ~/.vimrc
     echo 'source ~/.vimconfigs/vimrcs/plugins/js.vim' >> ~/.vimrc
-    echo 'Javascript support enabled.'
+    echo '[+] Javascript support enabled.'
 else
-    echo 'Javascript support disabled.'
+    echo '[-] Javascript support disabled.'
 fi
 
 if [ $frontend_support = "y" ]
 then
     echo '" symbolic link for frontend suport' >> ~/.vimrc
     echo 'source ~/.vimconfigs/vimrcs/plugins/frontend.vim' >> ~/.vimrc
-    echo 'Frontend support enabled.'
+    echo '[+] Frontend support enabled.'
 else
-    echo 'Frontend support disabled.'
+    echo '[-] Frontend support disabled.'
 fi
 
 if [ $autocomplete_support = "y" ]
 then
     echo '" symbolic link for youcomplete me suport' >> ~/.vimrc
     echo 'source ~/.vimconfigs/vimrcs/plugins/autocomplete.vim' >> ~/.vimrc
-    echo 'Autocomplete support enabled.'
+    echo '[+] Autocomplete support enabled.'
 else
-    echo 'Autocomplete support disabled.'
+    echo '[-] Autocomplete support disabled.'
 fi
 
 if [ $beta_support = "y" ]
 then
     echo '" symbolic link for beta suport' >> ~/.vimrc
     echo 'source ~/.vimconfigs/vimrcs/basics/testing.vim' >> ~/.vimrc
-    echo 'Beta support enabled.'
+    echo '[+] Beta support enabled.'
 else
-    echo 'Beta support disabled.'
+    echo '[-] Beta support disabled.'
 fi
 
 echo '
@@ -78,9 +78,9 @@ if [ $colorscheme = "y" ]
 then
     echo '" symbolic link for colors' >> ~/.vimrc
     echo 'source ~/.vimconfigs/vimrcs/basics/colors.vim' >> ~/.vimrc
-    echo 'syntax and colorscheme enabled.'
+    echo '[+] syntax and colorscheme enabled.'
 else
-    echo 'syntax and colorscheme disabled.'
+    echo '[-] syntax and colorscheme disabled.'
 fi
 
 echo '
@@ -99,5 +99,5 @@ touch ~/.vimconfigs/vimrcs/my_plugins.vim
 
 vim -c ":PlugInstall|:qa"
 
-echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
+echo "[+] Installed the Ultimate Vim configuration successfully! Enjoy :-)"
 
