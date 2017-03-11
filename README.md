@@ -14,6 +14,7 @@ The process below will write/change the `.vimrc` file content.
 
 During the install process you will be asked about features support. For now you can enable or
 disable support for:
+* Syntax and Colorscheme (RECOMMENDED)
 * Python
 * Javascript
 * Frontend
