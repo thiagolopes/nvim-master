@@ -146,3 +146,6 @@ set si " Smart indent
 set wrap
 set linebreak
 set nolist
+
+" Using system's clipboard
+set clipboard=unnamed,unnamedplus
