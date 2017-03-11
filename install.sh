@@ -82,5 +82,7 @@ source ~/.vimconfigs/vimrcs/basics/colors.vim
 # create undodir
 mkdir undodir
 
+vim -c ":PlugInstall|:qa"
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
 

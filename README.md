@@ -23,10 +23,14 @@ disable support for:
 ```
 $ git clone https://github.com/ThiagoLopes/vim-master.git ~/.vimconfigs
 $ cd ~/.vimconfigs
-$ sh install-vim.sh
-$ vim -c ':PlugInstall'
+$ sh install.sh
 ```
-Restart your vim.
+Start your vim.
+
+### Update
+To update your vim-master with latest features, just run the following command:
+```$ cd ~/.vimconfigs && sh update.sh```
+
 
 ### Uninstall
 To disable the configs from vim-master project, just rewrite your `.vimrc` file with your own
