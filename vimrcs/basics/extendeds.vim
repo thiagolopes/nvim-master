@@ -92,23 +92,3 @@ nmap <C-l> :bnext<CR>
 
 " Fechar buff
 map <F2> :bd<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" CRTL+C or CRTL+V
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" CTRL-X and SHIFT-Del are Cut
-vnoremap <C-X> "+x
-" CTRL-C and CTRL-Insert are Copy
-vnoremap <C-C> "+y
-" CTRL-V and SHIFT-Insert are Paste
-map <C-V> "+gP
-cmap <C-V>      <C-R>+
-cmap <S-Insert>     <C-R>+
-
-exe 'inoremap <script> <C-V>' paste#paste_cmd['i']
-exe 'vnoremap <script> <C-V>' paste#paste_cmd['v']
-
-imap <S-Insert>     <C-V>
-vmap <S-Insert>     <C-V>
-" Use CTRL-Q to do what CTRL-V used to do
-noremap <C-Q> <C-V>
