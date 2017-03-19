@@ -19,3 +19,8 @@ au BufRead,BufNewFile *.scss set filetype=scss.css
 " set 2 tabspaces (identation) for html files
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Omni complete functions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS

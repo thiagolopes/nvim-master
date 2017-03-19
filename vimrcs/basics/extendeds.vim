@@ -73,11 +73,6 @@ inoremap $e ""<esc>i
 iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Omni complete functions
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Navigation
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Disable arrows
