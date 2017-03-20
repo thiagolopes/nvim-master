@@ -15,7 +15,6 @@ call plug#begin("~/.vimconfigs/plugged/")
 
 source ~/.vimconfigs/vimrcs/plugins/basics_plugin.vim
 source ~/.vimconfigs/vimrcs/plugins/extendeds_plugin.vim
-source ~/.vimconfigs/vimrcs/plugins/colorschemes.vim
 ' > ~/.vimrc
 
 read -p '==> Do you want to enable syntax and colorscheme (monokai)? (y/n): ' colorscheme 
@@ -76,8 +75,8 @@ call plug#end()
 
 if [ $colorscheme = "y" ]
 then
-    echo '" symbolic link for colors' >> ~/.vimrc
-    echo 'source ~/.vimconfigs/vimrcs/basics/colors.vim' >> ~/.vimrc
+    echo '" symbolic link for colorschemes' >> ~/.vimrc
+    echo 'source ~/.vimconfigs/vimrcs/plugins/colorschemes.vim' >> ~/.vimrc
     echo '[+] syntax and colorscheme enabled.'
 else
     echo '[-] syntax and colorscheme disabled.'
