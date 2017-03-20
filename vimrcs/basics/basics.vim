@@ -41,6 +41,12 @@ nmap g# g#zz
 " Enable number lines
 set number
 
+" Shows the last command in bottom right
+set showcmd
+
+" Highlight current line
+set cursorline
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 

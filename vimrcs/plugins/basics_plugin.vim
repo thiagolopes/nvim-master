@@ -37,6 +37,9 @@ let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+" Vim-airline appears even with only one window open
+set laststatus=2
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " syntatic config
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
