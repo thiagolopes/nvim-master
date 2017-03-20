@@ -42,6 +42,14 @@ To completly uninstall plugins:
 $ rm -r ~/.vimconfigs/plugged
 ```
 
+### Changing colorscheme
+If colorschmes were enabled during instalation process, you can set your colorscheme adding
+something like the example bellow to you `vimrcs/my_config.vim`:
+
+```
+colorscheme your_color_scheme_name
+```
+
 ### Requeriments
 
 * [Hack](https://github.com/chrissimpkins/Hack) Fonts!
