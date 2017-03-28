@@ -17,7 +17,14 @@ au BufRead,BufNewFile *.scss set filetype=scss.css
 " => HTML syntax
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " set 2 tabspaces (identation) for html files
-autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype html setlocal ts=2 sts=2 sw=2 expandtab
+autocmd Filetype htmldjango setlocal ts=2 sts=2 sw=2 expandtab
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => JS syntax
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" set 2 tabspaces (identation) for js files
+autocmd Filetype javascript setlocal ts=2 sts=2 sw=2 noexpandtab
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
