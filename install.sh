@@ -18,7 +18,7 @@ source ~/.vimconfigs/vimrcs/plugins/extendeds_plugin.vim
 source ~/.vimconfigs/vimrcs/plugins/colorschemes.vim
 ' > ~/.vimrc
 
-read -p '==> Do you want to enable syntax and colorscheme (monokai)? (y/n): ' colorscheme 
+read -p '==> Do you want to enable syntax and colorscheme (monokai)? (y/n): ' colorscheme
 read -p '==> Do you want to enable Python support? (y/n): ' python_support
 read -p '==> Do you want to enable Javascript support? (y/n): ' js_support
 read -p '==> Do you want to enable frontend support? (y/n): ' frontend_support
@@ -93,11 +93,37 @@ endtry
 ' >> ~/.vimrc
 
 # create undodir
-mkdir undodir
+if [ -d "$HOME/.vimconfigs/undodir" ]
+then
+    echo "[!] Undodir exist"
+else
+    mkdir undodir
+    echo "[+] Undodir create"
+fi
+
 touch ~/.vimconfigs/vimrcs/my_configs.vim
 touch ~/.vimconfigs/vimrcs/my_plugins.vim
 
 vim -c ":PlugInstall|:qa"
+
+# create nvim folder
+if [ -d "$HOME/.config/nvim" ]
+then
+    echo "[!] Neovim folder exist"
+else
+    mkdir ~/.config/nvim
+    echo "[+] Neovim folder create"
+fi
+
+if [ -f "$HOME/.config/nvim/init.vim" ]
+then
+    echo "[!] Backup neovim config"
+    mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/init.vim.bak
+else
+    echo "[+] Create Neovim symbolic link [experimental]"
+fi
+
+ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 echo "[+] Installed the Ultimate Vim configuration successfully! Enjoy :-)"
 
