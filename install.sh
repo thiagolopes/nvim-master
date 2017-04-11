@@ -1,4 +1,12 @@
 #!/bin/sh
+
+# backup vimrc user
+if [ -f "$HOME/.vimrc" ]
+then
+    echo "[!] Backup vim user config"
+    mv $HOME/.vimrc $HOME/.vimrc.bak
+fi
+
 echo '
 " set main path
 set runtimepath+=~/.vimconfigs
