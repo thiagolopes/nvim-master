@@ -1,13 +1,4 @@
-```
-__     _____ __  __   __  __    _    ____ _____ _____ ____  
-\ \   / /_ _|  \/  | |  \/  |  / \  / ___|_   _| ____|  _ \ 
- \ \ / / | || |\/| | | |\/| | / _ \ \___ \ | | |  _| | |_) |
-  \ V /  | || |  | | | |  | |/ ___ \ ___) || | | |___|  _ < 
-   \_/  |___|_|  |_| |_|  |_/_/   \_\____/ |_| |_____|_| \_\
-```
-
-# the master configs for hackers
-                                                            
+![vim master](https://i.imgur.com/WXVNDX0.png) 
 
 ### Install
 The process below will write/change the `.vimrc` file content.
