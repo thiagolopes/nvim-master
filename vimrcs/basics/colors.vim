@@ -5,3 +5,6 @@ try
     colorscheme monokai-phoenix
 catch
 endtry
+
+" Brackets colors match
+hi MatchParen cterm=bold ctermbg=none ctermfg=magenta

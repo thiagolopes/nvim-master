@@ -1,4 +1,3 @@
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -154,5 +153,8 @@ set wrap
 set linebreak
 set nolist
 
+" No brackts match
+let loaded_matchparen = 1 
+
 " Using system's clipboard
-set clipboard=unnamed,unnamedplus
+"set clipboard=unnamed,unnamedplus
