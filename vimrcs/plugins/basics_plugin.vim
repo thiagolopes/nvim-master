@@ -8,6 +8,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-scripts/bufexplorer.zip'
 Plug 'jiangmiao/auto-pairs'
 Plug 'moll/vim-bbye'
+Plug 'jszakmeister/vim-togglecursor'
 
 """"""""""""""""""""""
 " => Git
