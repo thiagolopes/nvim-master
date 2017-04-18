@@ -13,3 +13,5 @@
 "Plug 'agude/vim-eldar'
 Plug 'reewr/vim-monokai-phoenix'
 Plug 'nanotech/jellybeans.vim'
+Plug 'tomasr/molokai'
+Plug 'fmoralesc/molokayo'

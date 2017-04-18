@@ -107,7 +107,7 @@ set scrolloff=999
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set extra options when running in GUI mode
 if has("gui_running")
-set guifont=Hack\ 11
+set guifont=Hack\ 10
     set guioptions-=r
     set guioptions-=R
     set guioptions-=l
