@@ -6,6 +6,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-haml'
+Plug 'skammer/vim-css-color'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SCSS syntax

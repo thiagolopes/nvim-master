@@ -6,6 +6,7 @@ Plug 'jimf/vim-pep8-text-width'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'sentientmachine/Pretty-Vim-Python/'
 Plug 'python-rope/ropevim'
+Plug 'jmcantrell/vim-virtualenv'
 
 """"""""""""""""""""""""""""""
 " => Python config
