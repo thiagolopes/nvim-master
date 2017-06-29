@@ -15,6 +15,7 @@ Plug 'matze/vim-move'
 " => Git
 """"""""""""""""""""""
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 Plug 'airblade/vim-gitgutter'
 
 """"""""""""""""""""""
