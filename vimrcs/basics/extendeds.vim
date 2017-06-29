@@ -1,14 +1,3 @@
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => GUI related
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Disable scrollbars (real hackers don't use scrollbars for navigation!)
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Fast editing and reloading of vimrc configs
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>e :e! ~/.vimconfigs/vimrcs/*.vim<cr>
-autocmd! bufwritepost vimrc source ~/.vimconfigs/vimrcs/*.vim
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Turn persistent undo on
 "    means that you can undo even when you close a buffer/VIM
@@ -38,3 +27,6 @@ map <F2> :bd<cr>
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
 map <c-space> ?
+
+" Exiter TERMINAL MODE - NEO VIM
+map <Esc> <C-\><C-n>

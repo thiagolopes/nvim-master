@@ -9,6 +9,10 @@ endtry
 " Brackets colors match
 hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plus Highlight
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Self highlight in Python
 syn match pythonBoolean "\(\W\|^\)\zsself\ze\." 
 syn match pythonBoolean "\(\W\|^\)\@<=self\(\.\)\@="
