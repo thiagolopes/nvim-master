@@ -1,7 +1,22 @@
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
+
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" " => Youcompleteme
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" let g:ycm_add_preview_to_completeopt = 1
+" let g:ycm_autoclose_preview_window_after_completion = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Youcompleteme
+" => Deoplete - Autocomplete for NEOVIM
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:ycm_add_preview_to_completeopt = 1
-let g:ycm_autoclose_preview_window_after_completion = 1
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'ervandew/supertab'
+let g:deoplete#enable_at_startup = 1
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Snipped
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+

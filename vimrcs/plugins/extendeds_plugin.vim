@@ -4,20 +4,18 @@
 Plug 'junegunn/goyo.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-scripts/mru.vim'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Chiel92/vim-autoformat'
 Plug 'majutsushi/tagbar'
-Plug 'vim-scripts/Ranger.vim'
 Plug 'vim-scripts/bufexplorer.zip'
-Plug 'metakirby5/codi.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'mhinz/vim-startify'
 
 """"""""""""""""""""""
 " Guide lines
 """"""""""""""""""""""
 Plug 'nathanaelkane/vim-indent-guides'
 
-let g:indent_guides_guide_size = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-autoformat, not use

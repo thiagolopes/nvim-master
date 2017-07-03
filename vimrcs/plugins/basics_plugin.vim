@@ -5,11 +5,12 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
-Plug 'vim-scripts/bufexplorer.zip'
+"Plug 'vim-scripts/bufexplorer.zip'
 Plug 'jiangmiao/auto-pairs'
-Plug 'moll/vim-bbye'
 Plug 'jszakmeister/vim-togglecursor'
 Plug 'matze/vim-move'
+Plug 'easymotion/vim-easymotion'
+
 
 """"""""""""""""""""""
 " => Git
@@ -69,12 +70,22 @@ func! SyntasticCheckCoffeescript() " Custom CoffeeScript SyntasticCheck
     execute "SyntasticCheck"
     execute "Errors"
 endfunc
-" nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Airline Theme set!
+" => Airline Theme set!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:airline_theme='jellybeans'
 
 " Fechar buff
 map <F2> :Bd<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => EasyMove
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Move to word
+map  <Leader><Leader>w <Plug>(easymotion-bd-w)
+nmap <Leader><Leader>w <Plug>(easymotion-overwin-w)
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Fix NeovimQT fonts
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plug 'equalsraf/neovim-gui-shim'
