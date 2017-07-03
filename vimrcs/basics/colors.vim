@@ -1,14 +1,10 @@
 " Enable syntax highlighting
-syntax enable
-set background=dark
-try
-    colorscheme monokai-phoenix
-catch
-endtry
+syntax on
+colorscheme molokai
+set t_Co=256  " vim-monokai now only support 256 colours in terminal.
 
 " Brackets colors match
 hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plus Highlight
