@@ -1,5 +1,7 @@
 ![vim master](https://i.imgur.com/WXVNDX0.png) 
 
+# This project is being ported to Neovim
+
 ### Install
 The process below will write/change the `.vimrc` file content.
 
@@ -17,7 +19,7 @@ $ git clone https://github.com/ThiagoLopes/vim-master.git ~/.vimconfigs
 $ cd ~/.vimconfigs
 $ sh install.sh
 ```
-Start your vim.
+Start your Neovim.
 
 ### Update
 To update your vim-master with latest features, just run the following command:
