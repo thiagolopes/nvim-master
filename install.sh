@@ -26,7 +26,6 @@ source ~/.vimconfigs/vimrcs/plugins/extendeds_plugin.vim
 source ~/.vimconfigs/vimrcs/plugins/colorschemes.vim
 ' > ~/.vimrc
 
-read -p '==> Do you want to enable syntax and colorscheme (monokai)? (y/n): ' colorscheme
 read -p '==> Do you want to enable Python support? (y/n): ' python_support
 read -p '==> Do you want to enable Javascript support? (y/n): ' js_support
 read -p '==> Do you want to enable frontend support? (y/n): ' frontend_support
@@ -82,14 +81,9 @@ echo '
 call plug#end()
 ' >> ~/.vimrc
 
-if [ $colorscheme = "y" ]
-then
-    echo '" symbolic link for colors' >> ~/.vimrc
-    echo 'source ~/.vimconfigs/vimrcs/basics/colors.vim' >> ~/.vimrc
-    echo '[+] syntax and colorscheme enabled.'
-else
-    echo '[-] syntax and colorscheme disabled.'
-fi
+echo '" symbolic link for colors' >> ~/.vimrc
+echo 'source ~/.vimconfigs/vimrcs/basics/colors.vim' >> ~/.vimrc
+echo '[+] syntax and colorscheme enabled.'
 
 echo '
 try
