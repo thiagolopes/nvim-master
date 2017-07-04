@@ -3,14 +3,9 @@
 """"""""""""""""""""""
 Plug 'othree/csscomplete.vim'
 Plug 'mattn/emmet-vim'
-Plug 'jelera/vim-javascript-syntax'
-Plug 'hail2u/vim-css3-syntax'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-haml'
-
-Plug 'othree/html5.vim'
 Plug 'digitaltoad/vim-jade'
-Plug 'wavded/vim-stylus'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => SCSS syntax

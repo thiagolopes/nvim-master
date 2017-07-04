@@ -1,21 +1,22 @@
 """"""""""""""""""""""
 " => Tricks
 """"""""""""""""""""""
-Plug 'junegunn/goyo.vim'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'vim-scripts/mru.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Chiel92/vim-autoformat'
 Plug 'majutsushi/tagbar'
-Plug 'vim-scripts/bufexplorer.zip'
-Plug 'ryanoasis/vim-devicons'
 Plug 'mhinz/vim-startify'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 """"""""""""""""""""""
 " Guide lines
 """"""""""""""""""""""
-Plug 'nathanaelkane/vim-indent-guides'
+Plug 'Yggdroot/indentLine'
 
+""""""""""""""""""""""
+" Wakatime
+""""""""""""""""""""""
+Plug 'wakatime/vim-wakatime'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-autoformat, not use
@@ -36,11 +37,6 @@ if executable('ag')
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
     let g:ctrlp_use_caching = 0
 endif
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => vim-multiple-cursors
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:multi_cursor_next_key="\<C-s>"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => nerdcommenter

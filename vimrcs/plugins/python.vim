@@ -1,22 +1,3 @@
-""""""""""""""""""""""
-" => Python plugins
-""""""""""""""""""""""
-"Plug 'jimf/vim-pep8-text-width'
-"Plug 'Vimjas/vim-python-pep8-indent'
-"Plug 'sentientmachine/Pretty-Vim-Python/'
-"Plug 'janko-m/vim-test'
-"Plug 'jmcantrell/vim-virtualenv'
-"Plug 'nvie/vim-flake8'
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Deoplate Jedi - For Python
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plug 'zchee/deoplete-jedi'
-"Plug 'tweekmonster/django-plus.vim'
-Plug 'Shougo/denite.nvim'
-Plug 'Shougo/neco-syntax'
-"Plug 'roxma/nvim-completion-manager'
-
 """"""""""""""""""""""""""""""
 " => Python config
 """"""""""""""""""""""""""""""
