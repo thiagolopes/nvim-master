@@ -1,12 +1,33 @@
 """"""""""""""""""""""""""""""
 " => Python config
 """"""""""""""""""""""""""""""
+"Plug 'nvie/vim-flake8'
+
+"let g:flake8_quickfix_height=3
+"let g:flake8_show_quickfix=0
+"let g:flake8_show_in_gutter=1 
+"autocmd BufWritePost *.py call Flake8()
+
+
+Plug 'vim-syntastic/syntastic'
+let g:syntastic_python_checkers = ['flake8']
+
+autocmd FileType python map <buffer> <F7> :call SyntasticCheck()<CR>
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 1
+
 let python_highlight_all = 1
 
 au BufNewFile,BufRead *.jinja set syntax=htmljinja
 au BufNewFile,BufRead *.mako set ft=mako
 
-let g:syntastic_python_checkers=['flake8']
 
 " quickly add ipdb.set_trace() by typing PDB or IPDB
 iab IPDB import ipdb; ipdb.set_trace()
