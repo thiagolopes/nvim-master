@@ -6,7 +6,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'Chiel92/vim-autoformat'
 Plug 'majutsushi/tagbar'
 Plug 'mhinz/vim-startify'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 
 """"""""""""""""""""""
 " Guide lines

@@ -1,7 +1,6 @@
 """"""""""""""""""""""
 " => Front-End
 """"""""""""""""""""""
-Plug 'othree/csscomplete.vim'
 Plug 'mattn/emmet-vim'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-haml'
