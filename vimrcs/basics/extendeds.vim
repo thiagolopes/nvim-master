@@ -21,9 +21,6 @@ noremap  <Right> ""
 nmap <C-h> :bprevious<CR>
 nmap <C-l> :bnext<CR>
 
-" Close buff
-map <F2> :bd<cr>
-
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
 map <c-space> ?
@@ -101,3 +98,8 @@ endfunction
 " => Remove lag in ESC
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set timeoutlen=1000 ttimeoutlen=0
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => F2 Close buffer
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <F2> :bd<cr>
