@@ -154,3 +154,5 @@ set wrap
 set linebreak
 set nolist
 
+"Neovim replace
+set inccommand=nosplit
