@@ -46,3 +46,4 @@ let g:NERDSpaceDelims = 0
 " => TagBar
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap <F8> :TagbarToggle<CR>
+

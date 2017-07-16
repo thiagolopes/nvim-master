@@ -94,6 +94,11 @@ endtry
 
 ' >> ~/.vimrc
 
+# create suport a langs
+
+echo '[+] syntax Rust,Vala'
+echo 'source ~/.vimconfigs/vimrcs/plugins/langs.vim' >> ~/.vimrc
+
 # create undodir
 if [ -d "$HOME/.vimconfigs/undodir" ]
 then
