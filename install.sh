@@ -50,6 +50,13 @@ else
     echo '[-] Javascript support disabled.'
 fi
 
+
+# create suport a langs
+
+echo '[+] syntax Rust,Vala'
+echo 'source ~/.vimconfigs/vimrcs/plugins/langs.vim' >> ~/.vimrc
+
+
 if [ $frontend_support = "y" ]
 then
     echo '" symbolic link for frontend suport' >> ~/.vimrc
@@ -93,11 +100,6 @@ catch
 endtry
 
 ' >> ~/.vimrc
-
-# create suport a langs
-
-echo '[+] syntax Rust,Vala'
-echo 'source ~/.vimconfigs/vimrcs/plugins/langs.vim' >> ~/.vimrc
 
 # create undodir
 if [ -d "$HOME/.vimconfigs/undodir" ]
