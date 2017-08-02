@@ -8,6 +8,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'jszakmeister/vim-togglecursor'
 Plug 'matze/vim-move'
 Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-surround'
 
 """"""""""""""""""""""
 " => Git
