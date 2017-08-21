@@ -9,6 +9,9 @@
 "autocmd BufWritePost *.py call Flake8()
 
 
+""""""""""""""""""""""""""""""
+" => Old Lint
+""""""""""""""""""""""""""""""
 "Plug 'vim-syntastic/syntastic'
 "let g:syntastic_python_checkers = ['flake8']
 
@@ -24,10 +27,6 @@
 "let g:syntastic_check_on_wq = 1
 
 "let python_highlight_all = 1
-"
-let g:ale_linters = {
-\   'python': ['flake8']
-\}
 
 au BufNewFile,BufRead *.jinja set syntax=htmljinja
 au BufNewFile,BufRead *.mako set ft=mako

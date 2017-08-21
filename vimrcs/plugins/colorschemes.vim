@@ -1,4 +1,5 @@
 """"""""""""""""""""""
 " => colorschemes
 """"""""""""""""""""""
-Plug 'flazz/vim-colorschemes'
+
+Plug 'tomasr/molokai'

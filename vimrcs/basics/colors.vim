@@ -6,6 +6,9 @@ set t_Co=256  " vim-monokai now only support 256 colours in terminal.
 " Brackets colors match
 hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 
+" AirlineTheme
+let g:airline_theme='dark'
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plus Highlight
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
