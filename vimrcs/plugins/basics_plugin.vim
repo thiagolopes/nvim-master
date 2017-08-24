@@ -11,6 +11,8 @@ Plug 'matze/vim-move'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'Valloric/MatchTagAlways'
+Plug 'equalsraf/neovim-gui-shim'
 set exrc
 set secure
 

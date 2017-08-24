@@ -2,7 +2,6 @@
 " => Front-End
 """"""""""""""""""""""
 Plug 'mattn/emmet-vim'
-Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-haml'
 Plug 'digitaltoad/vim-jade'
 

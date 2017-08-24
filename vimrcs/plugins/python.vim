@@ -1,13 +1,11 @@
 """"""""""""""""""""""""""""""
 " => Python config
 """"""""""""""""""""""""""""""
-"Plug 'nvie/vim-flake8'
+Plug 'mjbrownie/vim-htmldjango_omnicomplete'
 
-"let g:flake8_quickfix_height=3
-"let g:flake8_show_quickfix=0
-"let g:flake8_show_in_gutter=1 
-"autocmd BufWritePost *.py call Flake8()
-
+au FileType htmldjango set omnifunc=htmldjangocomplete#CompleteDjango
+au FileType htmldjango inoremap {% {% %}<left><left><left>
+au FileType htmldjango inoremap {{ {{ }}<left><left><left>
 
 """"""""""""""""""""""""""""""
 " => Old Lint
@@ -41,3 +39,18 @@ au BufNewFile,BufRead *.py set tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79
 " Set Host Prog
 let g:python_host_prog = '/usr/bin/python2'
 let g:python3_host_prog = '/usr/bin/python3.5'
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Python Test
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plug 'janko-m/vim-test'
+
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
+
+let test#strategy = "neovim"
+

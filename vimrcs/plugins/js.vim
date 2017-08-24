@@ -1,4 +1,4 @@
 """"""""""""""""""""""""""""""
 " => Plugins
 """"""""""""""""""""""""""""""
-Plug 'jelera/vim-javascript-syntax'
+Plug 'othree/javascript-libraries-syntax.vim'
