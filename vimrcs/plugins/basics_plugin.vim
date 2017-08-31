@@ -13,6 +13,7 @@ Plug 'tpope/vim-surround'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'Valloric/MatchTagAlways'
 Plug 'equalsraf/neovim-gui-shim'
+Plug 'mileszs/ack.vim'
 set exrc
 set secure
 
