@@ -156,3 +156,9 @@ set nolist
 
 "Neovim replace
 set inccommand=nosplit
+
+"Deleting Text Without Overwriting Any Registers
+nmap X "_d
+nmap XX "_dd
+vmap X "_d
+vmap x "_d
