@@ -399,25 +399,6 @@ BaseProject	plugged/vim-wakatime/plugin/packages/wakatime/projects/base.py	/^cla
 BaseSSLError	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/connection.py	/^    BaseSSLError = ssl.SSLError$/;"	v
 BaseSSLError	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/connection.py	/^    class BaseSSLError(BaseException):$/;"	c
 BaseSelector	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/util/selectors.py	/^class BaseSelector(object):$/;"	c
-BaseTag._getPrefix	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag._getPrefix() abort dict$/;"	f
-BaseTag._init	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag._init(name) abort dict$/;"	f
-BaseTag.addChild	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.addChild(tag) abort dict$/;"	f
-BaseTag.closeFold	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.closeFold() abort dict$/;"	f
-BaseTag.getChildren	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.getChildren() dict abort$/;"	f
-BaseTag.getChildrenByName	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.getChildrenByName(tagname) dict abort$/;"	f
-BaseTag.getClosedParentTline	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.getClosedParentTline() abort dict$/;"	f
-BaseTag.getPrototype	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.getPrototype(short) abort dict$/;"	f
-BaseTag.initFoldState	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.initFoldState(known_files) abort dict$/;"	f
-BaseTag.isFoldable	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.isFoldable() abort dict$/;"	f
-BaseTag.isFolded	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.isFolded() abort dict$/;"	f
-BaseTag.isKindheader	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.isKindheader() abort dict$/;"	f
-BaseTag.isNormalTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.isNormalTag() abort dict$/;"	f
-BaseTag.isPseudoTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.isPseudoTag() abort dict$/;"	f
-BaseTag.isSplitTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.isSplitTag() abort dict$/;"	f
-BaseTag.openFold	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.openFold() abort dict$/;"	f
-BaseTag.openParents	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.openParents() abort dict$/;"	f
-BaseTag.removeChild	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.removeChild(tag) dict abort$/;"	f
-BaseTag.setFolded	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:BaseTag.setFolded(folded) abort dict$/;"	f
 BaseTzInfo	plugged/vim-wakatime/plugin/packages/wakatime/packages/pytz/tzinfo.py	/^class BaseTzInfo(tzinfo):$/;"	c
 BashLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/shell.py	/^class BashLexer(RegexLexer):$/;"	c
 BashSessionLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/shell.py	/^class BashSessionLexer(ShellSessionBaseLexer):$/;"	c
@@ -1148,15 +1129,6 @@ FeatureContext	plugged/vim-test/spec/fixtures/behat/features/bootstrap/FeatureCo
 FelixLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/felix.py	/^class FelixLexer(RegexLexer):$/;"	c
 Fha	plugged/vim-easymotion/t/easymotion_spec.vim	/^        normal Fha$/;"	m
 FileAction	plugged/vim-wakatime/plugin/packages/wakatime/arguments.py	/^class FileAction(argparse.Action):$/;"	c
-FileInfo.addTag	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.addTag(tag) abort dict$/;"	f
-FileInfo.clearOldFolds	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.clearOldFolds() abort dict$/;"	f
-FileInfo.closeKindFold	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.closeKindFold(kind) abort dict$/;"	f
-FileInfo.getTags	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.getTags() dict abort$/;"	f
-FileInfo.getTagsByName	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.getTagsByName(tagname) dict abort$/;"	f
-FileInfo.openKindFold	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.openKindFold(kind) abort dict$/;"	f
-FileInfo.removeTag	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.removeTag(tag) dict abort$/;"	f
-FileInfo.reset	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.reset() abort dict$/;"	f
-FileInfo.sortTags	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:FileInfo.sortTags(compare_typeinfo) abort dict$/;"	f
 FileModeWarning	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/exceptions.py	/^class FileModeWarning(RequestsWarning, DeprecationWarning):$/;"	c
 FileRead	plugged/vim-fugitive/plugin/fugitive.vim	/^function! s:FileRead() abort$/;"	f
 FileType	plugged/vim-wakatime/plugin/packages/wakatime/packages/argparse.py	/^class FileType(object):$/;"	c
@@ -1165,9 +1137,7 @@ Filter	plugged/indentLine/after/plugin/indentLine.vim	/^function! s:Filter()$/;"
 Filter	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/filter.py	/^class Filter(object):$/;"	c
 FindBoundingLinesOfSexyCom	plugged/nerdcommenter/plugin/NERD_commenter.vim	/^function s:FindBoundingLinesOfSexyCom(lineNum)$/;"	f
 FindConfig	plugged/ale/ale_linters/pug/puglint.vim	/^function! s:FindConfig(buffer) abort$/;"	f
-FindConfig	plugged/ale/autoload/ale/fixers/eslint.vim	/^function! s:FindConfig(buffer) abort$/;"	f
 FindConfig	plugged/ale/autoload/ale/fixers/prettier.vim	/^function! s:FindConfig(buffer) abort$/;"	f
-FindConfig	plugged/ale/autoload/ale/fixers/prettier_eslint.vim	/^function! s:FindConfig(buffer) abort$/;"	f
 FindConnection	plugged/ale/autoload/ale/lsp.vim	/^function! s:FindConnection(key, value) abort$/;"	f
 FindDUBConfig	plugged/ale/ale_linters/d/dmd.vim	/^function! s:FindDUBConfig(buffer) abort$/;"	f
 FindDelimiterIndex	plugged/nerdcommenter/plugin/NERD_commenter.vim	/^function s:FindDelimiterIndex(delimiter, line)$/;"	f
@@ -1832,13 +1802,6 @@ KeywordCaseFilter	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygment
 KeywordSetting	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/robotframework.py	/^class KeywordSetting(TestCaseSetting):$/;"	c
 KeywordTable	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/robotframework.py	/^class KeywordTable(TestCaseTable):$/;"	c
 KillHandler	plugged/ale/autoload/ale/job.vim	/^function! s:KillHandler(timer) abort$/;"	f
-KindheaderTag.closeFold	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:KindheaderTag.closeFold() abort dict$/;"	f
-KindheaderTag.getPrototype	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:KindheaderTag.getPrototype(short) abort dict$/;"	f
-KindheaderTag.isFoldable	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:KindheaderTag.isFoldable() abort dict$/;"	f
-KindheaderTag.isFolded	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:KindheaderTag.isFolded() abort dict$/;"	f
-KindheaderTag.isKindheader	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:KindheaderTag.isKindheader() abort dict$/;"	f
-KindheaderTag.openFold	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:KindheaderTag.openFold() abort dict$/;"	f
-KindheaderTag.toggleFold	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:KindheaderTag.toggleFold(fileinfo) abort dict$/;"	f
 Koi8rModel	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/chardet/langcyrillicmodel.py	/^Koi8rModel = {$/;"	v
 KokaLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/haskell.py	/^class KokaLexer(RegexLexer):$/;"	c
 KotlinLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/jvm.py	/^class KotlinLexer(RegexLexer):$/;"	c
@@ -2335,10 +2298,6 @@ NonUnicodeDataInUnnamedRegister	plugged/ultisnips/test/test_Fixes.py	/^class Non
 NoneditableTextObject	plugged/ultisnips/pythonx/UltiSnips/text_objects/_base.py	/^class NoneditableTextObject(TextObject):$/;"	c
 NormalCest	plugged/vim-test/spec/fixtures/codeception/tests/functional/NormalCest.php	/^class NormalCest$/;"	c
 NormalSpec	plugged/vim-test/spec/fixtures/phpspec/NormalSpec.php	/^class NormalSpec extends ObjectBehavior$/;"	c
-NormalTag.getPrototype	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:NormalTag.getPrototype(short) abort dict$/;"	f
-NormalTag.isNormalTag	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:NormalTag.isNormalTag() abort dict$/;"	f
-NormalTag.str	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:NormalTag.str(longsig, full) abort dict$/;"	f
-NormalTag.strfmt	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:NormalTag.strfmt() abort dict$/;"	f
 NormalTest	plugged/vim-test/spec/fixtures/codeception/tests/functional/NormalTest.php	/^class NormalTest extends \\Codeception\\Test\\Unit$/;"	c
 NormalTest	plugged/vim-test/spec/fixtures/phpunit/NormalTest.php	/^class NormalTest extends PHPUnit_Framework_TestCase$/;"	c
 NotYetImplemented	plugged/vim-wakatime/plugin/packages/wakatime/exceptions.py	/^class NotYetImplemented(Exception):$/;"	c
@@ -2657,8 +2616,6 @@ PrtSelectJump	plugged/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSelectJump(char)$/
 PrtSelectMove	plugged/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSelectMove(dir)$/;"	f
 PrtSwitcher	plugged/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSwitcher()$/;"	f
 Ps	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/unistring.py	/^Ps = u'(\\\\[{\\u0f3a\\u0f3c\\u169b\\u201a\\u201e\\u2045\\u207d\\u208d\\u2308\\u230a\\u2329\\u2768\\u276a\\u276c\\u276e\\u2770\\u2772\\u2774\\u27c5\\u27e6\\u27e8\\u27ea\\u27ec\\u27ee\\u2983\\u2985\\u2987\\u2989\\u298b\\u298d\\u298f\\u2991\\u2993\\u2995\\u2997\\u29d8\\u29da\\u29fc\\u2e22\\u2e24\\u2e26\\u2e28\\u3008\\u300a\\u300c\\u300e\\u3010\\u3014\\u3016\\u3018\\u301a\\u301d\\ufd3e\\ufe17\\ufe35\\ufe37\\ufe39\\ufe3b\\ufe3d\\ufe3f\\ufe41\\ufe43\\ufe47\\ufe59\\ufe5b\\ufe5d\\uff08\\uff3b\\uff5b\\uff5f\\uff62'$/;"	v
-PseudoTag.isPseudoTag	plugged/tagbar/autoload/tagbar/prototypes/pseudotag.vim	/^function! s:PseudoTag.isPseudoTag() abort dict$/;"	f
-PseudoTag.strfmt	plugged/tagbar/autoload/tagbar/prototypes/pseudotag.vim	/^function! s:PseudoTag.strfmt() abort dict$/;"	f
 PsqlRegexLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/sql.py	/^class PsqlRegexLexer(PostgresBase, RegexLexer):$/;"	c
 PugLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/html.py	/^class PugLexer(ExtendedRegexLexer):$/;"	c
 Punctuation	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/token.py	/^Punctuation = Token.Punctuation$/;"	v
@@ -3196,7 +3153,8 @@ SourcesListLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments
 SparqlLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/rdf.py	/^class SparqlLexer(RegexLexer):$/;"	c
 SpecInputs	plugged/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SpecInputs(str)$/;"	f
 SplitPattern	plugged/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SplitPattern(str)$/;"	f
-SplitTag.isSplitTag	plugged/tagbar/autoload/tagbar/prototypes/splittag.vim	/^function! s:SplitTag.isSplitTag() abort dict$/;"	f
+SprintSerializer	undodir/%home%thiago%Documents%Programming%Python%django_essencial%scrum%board%serializers.py	/^VimŸUnDoå/;"	c
+SprintViewSet	undodir/%home%thiago%Documents%Programming%Python%django_essencial%scrum%board%views.py	/^VimŸUnDoå/;"	c
 SqlLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/sql.py	/^class SqlLexer(RegexLexer):$/;"	c
 SqliteConsoleLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/sql.py	/^class SqliteConsoleLexer(Lexer):$/;"	c
 SquidConfLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/configs.py	/^class SquidConfLexer(RegexLexer):$/;"	c
@@ -3664,8 +3622,6 @@ TurtleLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexe
 TwigHtmlLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/templates.py	/^class TwigHtmlLexer(DelegatingLexer):$/;"	c
 TwigHtmlParser	plugged/vim-wakatime/plugin/packages/wakatime/dependencies/templates.py	/^class TwigHtmlParser(HtmlDjangoParser):$/;"	c
 TwigLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/templates.py	/^class TwigLexer(RegexLexer):$/;"	c
-TypeInfo.createKinddict	plugged/tagbar/autoload/tagbar/prototypes/typeinfo.vim	/^function! s:TypeInfo.createKinddict() abort dict$/;"	f
-TypeInfo.getKind	plugged/tagbar/autoload/tagbar/prototypes/typeinfo.vim	/^function! s:TypeInfo.getKind(kind) abort dict$/;"	f
 TypeScriptLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/javascript.py	/^class TypeScriptLexer(RegexLexer):$/;"	c
 TypoScriptCssDataLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/typoscript.py	/^class TypoScriptCssDataLexer(RegexLexer):$/;"	c
 TypoScriptHtmlDataLexer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/typoscript.py	/^class TypoScriptHtmlDataLexer(RegexLexer):$/;"	c
@@ -4846,6 +4802,7 @@ __reduce__	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packa
 __reduce__	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/packages/ordered_dict.py	/^    def __reduce__(self):$/;"	m	class:OrderedDict	file:
 __reduce__	plugged/vim-wakatime/plugin/packages/wakatime/packages/simplejson/ordered_dict.py	/^    def __reduce__(self):$/;"	m	class:OrderedDict	file:
 __reduce__	plugged/vim-wakatime/plugin/packages/wakatime/packages/simplejson/scanner.py	/^    def __reduce__(self):$/;"	m	class:JSONDecodeError	file:
+__rep__	undodir/%home%thiago%Documents%Programming%Python%django_essencial%scrum%board%models.py	/^/;"	f	function:__str__	file:
 __repr__	plugged/ultisnips/pythonx/UltiSnips/position.py	/^    def __repr__(self):$/;"	m	class:Position	file:
 __repr__	plugged/ultisnips/pythonx/UltiSnips/snippet/definition/_base.py	/^    def __repr__(self):$/;"	m	class:SnippetDefinition	file:
 __repr__	plugged/ultisnips/pythonx/UltiSnips/snippet/parsing/_lexer.py	/^    def __repr__(self):$/;"	m	class:EndOfTextToken	file:
@@ -4926,6 +4883,8 @@ __str__	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages
 __str__	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/util/timeout.py	/^    def __str__(self):$/;"	m	class:Timeout	file:
 __str__	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/util/url.py	/^    def __str__(self):$/;"	m	class:Url	file:
 __str__	plugged/vim-wakatime/plugin/packages/wakatime/packages/socks.py	/^    def __str__(self):$/;"	m	class:ProxyError	file:
+__str__	undodir/%home%thiago%Documents%Programming%Python%django_essencial%scrum%board%models.py	/^/;"	f	file:
+__str__	undodir/%home%thiago%Documents%Programming%Python%django_essencial%scrum%board%models.py	/^/;"	f	function:__str__	file:
 __sub__	plugged/ultisnips/pythonx/UltiSnips/position.py	/^    def __sub__(self, pos):$/;"	m	class:Position	file:
 __sub__	plugged/vim-wakatime/plugin/packages/wakatime/packages/ntlm_auth/U32.py	/^    def __sub__(self, b):$/;"	m	class:U32	file:
 __title__	plugged/vim-wakatime/plugin/packages/wakatime/__about__.py	/^__title__ = 'wakatime'$/;"	v
@@ -5230,6 +5189,7 @@ _function	plugged/vim-easymotion/autoload/vital/easymotion.vim	/^  function! s:_
 _functional_notation_keyword_values	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/css.py	/^_functional_notation_keyword_values = ($/;"	v
 _gen_command_rules	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/tcl.py	/^    def _gen_command_rules(keyword_cmds_re, builtin_cmds_re, context=""):$/;"	m	class:TclLexer
 _get	plugged/vim-wakatime/plugin/packages/wakatime/packages/configparser/__init__.py	/^    def _get(self, section, conv, option, **kwargs):$/;"	m	class:RawConfigParser
+_getPrefix	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:_getPrefix() abort dict$/;"	f
 _get_LMv1_response	plugged/vim-wakatime/plugin/packages/wakatime/packages/ntlm_auth/compute_response.py	/^    def _get_LMv1_response(password, server_challenge):$/;"	m	class:ComputeResponse
 _get_LMv1_with_session_security_response	plugged/vim-wakatime/plugin/packages/wakatime/packages/ntlm_auth/compute_response.py	/^    def _get_LMv1_with_session_security_response(client_challenge):$/;"	m	class:ComputeResponse
 _get_LMv2_response	plugged/vim-wakatime/plugin/packages/wakatime/packages/ntlm_auth/compute_response.py	/^    def _get_LMv2_response(user_name, password, domain_name, server_challenge, client_challenge):$/;"	m	class:ComputeResponse
@@ -6020,6 +5980,8 @@ activateDirNode	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:act
 activateFileNode	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateFileNode(node)$/;"	f
 actual	plugged/vim-test/spec/dotnet_spec.vim	/^    let actual = s:remove_path(g:test#last_command)$/;"	v
 add	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/_collections.py	/^    def add(self, key, val):$/;"	m	class:HTTPHeaderDict
+addChild	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:addChild(tag) abort dict$/;"	f
+addTag	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:addTag(tag) abort dict$/;"	f
 add_argument	plugged/vim-wakatime/plugin/packages/wakatime/packages/argparse.py	/^    def add_argument(self, *args, **kwargs):$/;"	m	class:_ActionsContainer
 add_argument	plugged/vim-wakatime/plugin/packages/wakatime/packages/argparse.py	/^    def add_argument(self, action):$/;"	m	class:HelpFormatter
 add_argument_group	plugged/vim-wakatime/plugin/packages/wakatime/packages/argparse.py	/^    def add_argument_group(self, *args, **kwargs):$/;"	m	class:_ActionsContainer
@@ -6045,6 +6007,13 @@ add_section	plugged/vim-wakatime/plugin/packages/wakatime/packages/configparser/
 add_snippet	plugged/ultisnips/pythonx/UltiSnips/snippet/source/_snippet_dictionary.py	/^    def add_snippet(self, snippet):$/;"	m	class:SnippetDictionary
 add_snippet	plugged/ultisnips/pythonx/UltiSnips/snippet/source/added.py	/^    def add_snippet(self, ft, snippet):$/;"	m	class:AddedSnippetsSource
 add_snippet	plugged/ultisnips/pythonx/UltiSnips/snippet_manager.py	/^    def add_snippet(self, trigger, value, description,$/;"	m	class:SnippetManager
+add_snr	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:add_snr(funcname) abort$/;"	f
+add_snr	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:add_snr(funcname) abort$/;"	f
+add_snr	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:add_snr(funcname) abort$/;"	f
+add_snr	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:add_snr(funcname) abort$/;"	f
+add_snr	plugged/tagbar/autoload/tagbar/prototypes/pseudotag.vim	/^function! s:add_snr(funcname) abort$/;"	f
+add_snr	plugged/tagbar/autoload/tagbar/prototypes/splittag.vim	/^function! s:add_snr(funcname) abort$/;"	f
+add_snr	plugged/tagbar/autoload/tagbar/prototypes/typeinfo.vim	/^function! s:add_snr(funcname) abort$/;"	f
 add_stderr_logger	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/__init__.py	/^def add_stderr_logger(level=logging.DEBUG):$/;"	f
 add_subparsers	plugged/vim-wakatime/plugin/packages/wakatime/packages/argparse.py	/^    def add_subparsers(self, **kwargs):$/;"	m	class:ArgumentParser
 add_tag_recursive	plugged/tagbar/autoload/tagbar.vim	/^function! s:add_tag_recursive(parent, taginfo, pathlist) abort$/;"	f
@@ -6390,6 +6359,7 @@ ale#handlers#cppcheck#HandleCppCheckFormat	plugged/ale/autoload/ale/handlers/cpp
 ale#handlers#cpplint#HandleCppLintFormat	plugged/ale/autoload/ale/handlers/cpplint.vim	/^function! ale#handlers#cpplint#HandleCppLintFormat(buffer, lines) abort$/;"	f
 ale#handlers#css#HandleCSSLintFormat	plugged/ale/autoload/ale/handlers/css.vim	/^function! ale#handlers#css#HandleCSSLintFormat(buffer, lines) abort$/;"	f
 ale#handlers#css#HandleStyleLintFormat	plugged/ale/autoload/ale/handlers/css.vim	/^function! ale#handlers#css#HandleStyleLintFormat(buffer, lines) abort$/;"	f
+ale#handlers#eslint#FindConfig	plugged/ale/autoload/ale/handlers/eslint.vim	/^function! ale#handlers#eslint#FindConfig(buffer) abort$/;"	f
 ale#handlers#eslint#GetCommand	plugged/ale/autoload/ale/handlers/eslint.vim	/^function! ale#handlers#eslint#GetCommand(buffer) abort$/;"	f
 ale#handlers#eslint#GetExecutable	plugged/ale/autoload/ale/handlers/eslint.vim	/^function! ale#handlers#eslint#GetExecutable(buffer) abort$/;"	f
 ale#handlers#eslint#Handle	plugged/ale/autoload/ale/handlers/eslint.vim	/^function! ale#handlers#eslint#Handle(buffer, lines) abort$/;"	f
@@ -6497,7 +6467,6 @@ ale#sign#GetSignCommands	plugged/ale/autoload/ale/sign.vim	/^function! ale#sign#
 ale#sign#GetSignName	plugged/ale/autoload/ale/sign.vim	/^function! ale#sign#GetSignName(sublist) abort$/;"	f
 ale#sign#ParseSigns	plugged/ale/autoload/ale/sign.vim	/^function! ale#sign#ParseSigns(line_list) abort$/;"	f
 ale#sign#ReadSigns	plugged/ale/autoload/ale/sign.vim	/^function! ale#sign#ReadSigns(buffer) abort$/;"	f
-ale#sign#SetSignColumnHighlight	plugged/ale/autoload/ale/sign.vim	/^function! ale#sign#SetSignColumnHighlight(has_problems) abort$/;"	f
 ale#sign#SetSigns	plugged/ale/autoload/ale/sign.vim	/^function! ale#sign#SetSigns(buffer, loclist) abort$/;"	f
 ale#statusline#Count	plugged/ale/autoload/ale/statusline.vim	/^function! ale#statusline#Count(buffer) abort$/;"	f
 ale#statusline#Status	plugged/ale/autoload/ale/statusline.vim	/^function! ale#statusline#Status() abort$/;"	f
@@ -6730,6 +6699,7 @@ ale_linters#sh#shell#Handle	plugged/ale/ale_linters/sh/shell.vim	/^function! ale
 ale_linters#sh#shellcheck#GetCommand	plugged/ale/ale_linters/sh/shellcheck.vim	/^function! ale_linters#sh#shellcheck#GetCommand(buffer) abort$/;"	f
 ale_linters#sh#shellcheck#GetDialectArgument	plugged/ale/ale_linters/sh/shellcheck.vim	/^function! ale_linters#sh#shellcheck#GetDialectArgument(buffer) abort$/;"	f
 ale_linters#sh#shellcheck#GetExecutable	plugged/ale/ale_linters/sh/shellcheck.vim	/^function! ale_linters#sh#shellcheck#GetExecutable(buffer) abort$/;"	f
+ale_linters#slim#slimlint#GetCommand	plugged/ale/ale_linters/slim/slimlint.vim	/^function! ale_linters#slim#slimlint#GetCommand(buffer) abort$/;"	f
 ale_linters#slim#slimlint#Handle	plugged/ale/ale_linters/slim/slimlint.vim	/^function! ale_linters#slim#slimlint#Handle(buffer, lines) abort$/;"	f
 ale_linters#sml#smlnj_cm#GetCommand	plugged/ale/ale_linters/sml/smlnj_cm.vim	/^function! ale_linters#sml#smlnj_cm#GetCommand(buffer) abort$/;"	f
 ale_linters#spec#rpmlint#GetCommand	plugged/ale/ale_linters/spec/rpmlint.vim	/^function! ale_linters#spec#rpmlint#GetCommand(buffer) abort$/;"	f
@@ -7877,6 +7847,7 @@ clear	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/u
 clear	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/packages/ordered_dict.py	/^    def clear(self):$/;"	m	class:OrderedDict
 clear	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/poolmanager.py	/^    def clear(self):$/;"	m	class:PoolManager
 clear	plugged/vim-wakatime/plugin/packages/wakatime/packages/simplejson/ordered_dict.py	/^    def clear(self):$/;"	m	class:OrderedDict
+clearOldFolds	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:clearOldFolds() abort dict$/;"	f
 clear_snippets	plugged/ultisnips/pythonx/UltiSnips/snippet/source/_snippet_dictionary.py	/^    def clear_snippets(self, priority, triggers):$/;"	m	class:SnippetDictionary
 clear_temp	plugged/ultisnips/test/vim_interface.py	/^    def clear_temp(self):$/;"	m	class:TempFileManager
 clone	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/util/timeout.py	/^    def clone(self):$/;"	m	class:Timeout
@@ -7898,6 +7869,9 @@ close	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/sessions.p
 close	plugged/vim-wakatime/plugin/packages/wakatime/packages/socks.py	/^    def close(self):$/;"	m	class:socksocket
 closeChildren	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeChildren(node)$/;"	f
 closeCurrentDir	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeCurrentDir(node)$/;"	f
+closeFold	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:closeFold() abort dict$/;"	f
+closeFold	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:closeFold() abort dict$/;"	f
+closeKindFold	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:closeKindFold(kind) abort dict$/;"	f
 closeTreeWindow	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeTreeWindow()$/;"	f
 close_brace_callback	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/bibtex.py	/^    def close_brace_callback(self, match, ctx):$/;"	m	class:BibTeXLexer
 closed	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/response.py	/^    def closed(self):$/;"	m	class:HTTPResponse
@@ -8019,6 +7993,7 @@ cpath	plugged/vim-fugitive/plugin/fugitive.vim	/^function! s:cpath(path) abort$/
 cr	plugged/supertab/plugin/supertab.vim	/^      let cr = !(map =~? '\\(^\\|[^)]\\)<cr>' || map =~ 'ExpandCr')$/;"	v
 create	plugged/vim-airline/autoload/airline/section.vim	/^function! s:create(parts, append)$/;"	f
 create	plugged/vim-easymotion/autoload/vital/_easymotion/HitAHint/Hint.vim	/^function! s:create(targets, keys) abort$/;"	f
+createKinddict	plugged/tagbar/autoload/tagbar/prototypes/typeinfo.vim	/^function! s:createKinddict() abort dict$/;"	f
 create_authenticate_message	plugged/vim-wakatime/plugin/packages/wakatime/packages/ntlm_auth/ntlm.py	/^    def create_authenticate_message(self, user_name, password, domain_name=None, workstation=None, server_certificate_hash=None):$/;"	m	class:Ntlm
 create_bound_method	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/packages/six.py	/^    create_bound_method = types.MethodType$/;"	v
 create_bound_method	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/packages/six.py	/^    def create_bound_method(func, obj):$/;"	f
@@ -10989,8 +10964,6 @@ g:syntastic_rust_cargo_fname	plugged/rust.vim/syntax_checkers/rust/cargo.vim	/^l
 g:taboo_tabline	plugged/vim-airline/autoload/airline/extensions/tabline.vim	/^  let g:taboo_tabline = 0$/;"	v
 g:tagbar#icon_closed	plugged/tagbar/autoload/tagbar.vim	/^let g:tagbar#icon_closed = g:tagbar_iconchars[0]$/;"	v
 g:tagbar#icon_open	plugged/tagbar/autoload/tagbar.vim	/^let g:tagbar#icon_open   = g:tagbar_iconchars[1]$/;"	v
-g:tagbar#prototypes#basetag#BaseTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^let g:tagbar#prototypes#basetag#BaseTag = s:BaseTag$/;"	v
-g:tagbar#prototypes#normaltag#NormalTag	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^let g:tagbar#prototypes#normaltag#NormalTag = s:NormalTag$/;"	v
 g:tagbar_iconchars	plugged/tagbar/plugin/tagbar.vim	/^        let g:tagbar_iconchars = ['+', '-']$/;"	v
 g:tagbar_iconchars	plugged/tagbar/plugin/tagbar.vim	/^        let g:tagbar_iconchars = ['â–¶', 'â–¼']$/;"	v
 g:tagbar_type_snippets	plugged/ultisnips/ftplugin/snippets.vim	/^let g:tagbar_type_snippets = {$/;"	v
@@ -11110,8 +11083,17 @@ get	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/cookies.py	/
 get	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/sessions.py	/^    def get(self, url, **kwargs):$/;"	m	class:Session
 get	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/structures.py	/^    def get(self, key, default=None):$/;"	m	class:LookupDict
 get	plugged/vim-wakatime/plugin/packages/wakatime/session_cache.py	/^    def get(self):$/;"	m	class:SessionCache
+getChildren	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:getChildren() dict abort$/;"	f
+getChildrenByName	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:getChildrenByName(tagname) dict abort$/;"	f
+getClosedParentTline	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:getClosedParentTline() abort dict$/;"	f
 getConfigFile	plugged/vim-wakatime/plugin/packages/wakatime/configs.py	/^def getConfigFile():$/;"	f
+getKind	plugged/tagbar/autoload/tagbar/prototypes/typeinfo.vim	/^function! s:getKind(kind) abort dict$/;"	f
 getPromptMessage	plugged/vim-easymotion/autoload/EasyMotion/command_line.vim	/^function! s:getPromptMessage(num_strokes) "{{{$/;"	f
+getPrototype	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:getPrototype(short) abort dict$/;"	f
+getPrototype	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:getPrototype(short) abort dict$/;"	f
+getPrototype	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:getPrototype(short) abort dict$/;"	f
+getTags	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:getTags() dict abort$/;"	f
+getTagsByName	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:getTagsByName(tagname) dict abort$/;"	f
 get_accented_line	plugged/vim-airline/autoload/airline/builder.vim	/^function! s:get_accented_line(self, group, contents)$/;"	f
 get_adapter	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/sessions.py	/^    def get_adapter(self, url):$/;"	m	class:Session
 get_airline_themes	plugged/vim-airline/plugin/airline.vim	/^function! s:get_airline_themes(a, l, p)$/;"	f
@@ -11264,6 +11246,7 @@ get_order	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packag
 get_order	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/chardet/jpcntx.py	/^    def get_order(self, aBuf):$/;"	m	class:SJISContextAnalysis
 get_origin_req_host	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/cookies.py	/^    def get_origin_req_host(self):$/;"	m	class:MockRequest
 get_page_or_404	undodir/%home%thiago%Documents%Programming%Python%django_essencial%static_django%sitebuilder%views.py	/^/;"	f
+get_pages	undodir/%home%thiago%Documents%Programming%Python%django_essencial%static_django%sitebuilder%management%commands%build.py	/^/;"	f
 get_peername	plugged/vim-wakatime/plugin/packages/wakatime/packages/socks.py	/^    def get_peername(self):$/;"	m	class:socksocket
 get_php_functions	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/_php_builtins.py	/^    def get_php_functions():$/;"	f
 get_php_references	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/_php_builtins.py	/^    def get_php_references():$/;"	f
@@ -11714,6 +11697,7 @@ infer_properties	vimrcs/plug.vim	/^function! s:infer_properties(name, repo)$/;"	
 info	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/cookies.py	/^    def info(self):$/;"	m	class:MockResponse
 inherit	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexer.py	/^inherit = _inherit()  # pylint: disable=invalid-name$/;"	v
 init	plugged/vim-airline/plugin/airline.vim	/^function! s:init()$/;"	f
+initFoldState	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:initFoldState(known_files) abort dict$/;"	f
 initVariable	plugged/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
 init_buffer	plugged/vim-airline/autoload/airline/extensions/branch.vim	/^function! s:init_buffer()$/;"	f
 init_env	plugged/vim-startify/autoload/startify.vim	/^function! s:init_env()$/;"	f
@@ -11779,6 +11763,18 @@ ipaddress	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packag
 ircformat	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/formatters/irc.py	/^def ircformat(color, text):$/;"	f
 isCommentLine	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/scripting.py	/^        def isCommentLine(line):$/;"	f	function:EasytrieveLexer.analyse_text
 isEmptyLine	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/scripting.py	/^        def isEmptyLine(line):$/;"	f	function:EasytrieveLexer.analyse_text
+isFoldable	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:isFoldable() abort dict$/;"	f
+isFoldable	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:isFoldable() abort dict$/;"	f
+isFolded	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:isFolded() abort dict$/;"	f
+isFolded	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:isFolded() abort dict$/;"	f
+isKindheader	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:isKindheader() abort dict$/;"	f
+isKindheader	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:isKindheader() abort dict$/;"	f
+isNormalTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:isNormalTag() abort dict$/;"	f
+isNormalTag	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:isNormalTag() abort dict$/;"	f
+isPseudoTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:isPseudoTag() abort dict$/;"	f
+isPseudoTag	plugged/tagbar/autoload/tagbar/prototypes/pseudotag.vim	/^function! s:isPseudoTag() abort dict$/;"	f
+isSplitTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:isSplitTag() abort dict$/;"	f
+isSplitTag	plugged/tagbar/autoload/tagbar/prototypes/splittag.vim	/^function! s:isSplitTag() abort dict$/;"	f
 is_appengine	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/contrib/appengine.py	/^def is_appengine():$/;"	f
 is_appengine_sandbox	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/contrib/appengine.py	/^def is_appengine_sandbox():$/;"	f
 is_branch_empty	plugged/vim-airline/autoload/airline/extensions/hunks.vim	/^function! s:is_branch_empty()$/;"	f
@@ -13825,10 +13821,14 @@ open	plugged/vim-easymotion/autoload/vital/_easymotion/Vim/Buffer.vim	/^function
 open	plugged/vim-wakatime/plugin/packages/wakatime/compat.py	/^    open = codecs.open$/;"	v
 open	plugged/vim-wakatime/plugin/packages/wakatime/compat.py	/^    open = open$/;"	v
 openExplorer	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openExplorer(node)$/;"	f
+openFold	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:openFold() abort dict$/;"	f
+openFold	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:openFold() abort dict$/;"	f
 openHSplit	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openHSplit(target)$/;"	f
 openInNewTab	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTab(target)$/;"	f
 openInNewTabSilent	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTabSilent(target)$/;"	f
+openKindFold	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:openKindFold(kind) abort dict$/;"	f
 openNodeRecursively	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openNodeRecursively(node)$/;"	f
+openParents	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:openParents() abort dict$/;"	f
 openVSplit	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openVSplit(target)$/;"	f
 open_ascii_file	plugged/ultisnips/pythonx/UltiSnips/compatibility.py	/^    def open_ascii_file(filename, mode):$/;"	f
 open_brace_callback	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/bibtex.py	/^    def open_brace_callback(self, match, ctx):$/;"	m	class:BibTeXLexer
@@ -14253,6 +14253,8 @@ remember_buffer	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def remem
 remember_position	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def remember_position(self):$/;"	m	class:VimState
 remember_unnamed_register	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def remember_unnamed_register(self, text_to_expect):$/;"	m	class:VimState
 remembered_buffer	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def remembered_buffer(self):$/;"	m	class:VimState
+removeChild	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:removeChild(tag) dict abort$/;"	f
+removeTag	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:removeTag(tag) dict abort$/;"	f
 remove_cookie_by_name	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/cookies.py	/^def remove_cookie_by_name(cookiejar, name, domain=None, path=None):$/;"	f
 remove_move	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/packages/six.py	/^def remove_move(name):$/;"	f
 remove_move	plugged/vim-wakatime/plugin/packages/wakatime/packages/six.py	/^def remove_move(name):$/;"	f
@@ -14316,6 +14318,7 @@ reserved	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/
 reserved	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/haskell.py	/^    reserved = ['abstract', 'codata', 'coinductive', 'constructor', 'data',$/;"	v	class:AgdaLexer
 reservedWords	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/elm.py	/^    reservedWords = words(($/;"	v	class:ElmLexer
 reserved_words_db	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/modula2.py	/^    reserved_words_db = {$/;"	v	class:Modula2Lexer
+reset	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:reset() abort dict$/;"	f
 reset	plugged/ultisnips/pythonx/UltiSnips/indent_util.py	/^    def reset(self):$/;"	m	class:IndentUtil
 reset	plugged/ultisnips/pythonx/UltiSnips/vim_state.py	/^    def reset(self):$/;"	m	class:VisualContentPreserver
 reset	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/chardet/chardistribution.py	/^    def reset(self):$/;"	m	class:CharDistributionAnalysis
@@ -14482,7 +14485,6 @@ s93	plugged/vim-easymotion/t/smartsign_spec.vim	/^        normal s93$/;"	m
 s:1	plugged/vim-easymotion/t/smartsign_spec.vim	/^        normal s:1$/;"	m
 s:BB	plugged/vim-airline-themes/autoload/airline/themes/base16_spacemacs.vim	/^let s:BB = [s:gui_termfg, s:gui_termbg, s:cterm_termfg, s:cterm_termbg] " Branch and file format blocks$/;"	v
 s:BB	plugged/vim-airline-themes/autoload/airline/themes/murmur.vim	/^let s:BB = [s:gui_termfg, s:gui_termbg, s:cterm_termfg, s:cterm_termbg] " Branch and file format blocks$/;"	v
-s:BaseTag	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^let s:BaseTag = {}$/;"	v
 s:Bookmark	plugged/nerdtree/lib/nerdtree/bookmark.vim	/^let s:Bookmark = {}$/;"	v
 s:Buffer	plugged/vim-easymotion/autoload/EasyMotion/undo.vim	/^let s:Buffer = vital#easymotion#import('Vim.Buffer')$/;"	v
 s:C1	plugged/vim-airline-themes/autoload/airline/themes/qwq.vim	/^let s:C1 = [ '#0E3B4F' , '#FEFCF9' , 189 , 55  , '' ]$/;"	v
@@ -14520,7 +14522,6 @@ s:Event	plugged/nerdtree/lib/nerdtree/event.vim	/^let s:Event = {}$/;"	v
 s:FALSE	plugged/vim-easymotion/autoload/EasyMotion.vim	/^let s:FALSE = 0$/;"	v
 s:FALSE	plugged/vim-easymotion/autoload/vital/_easymotion/Data/Set.vim	/^let s:FALSE = 0$/;"	v
 s:FALSE	plugged/vim-easymotion/autoload/vital/_easymotion/HitAHint/Motion.vim	/^let s:FALSE = 0$/;"	v
-s:FileInfo	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^let s:FileInfo = {}$/;"	v
 s:FlagSet	plugged/nerdtree/lib/nerdtree/flag_set.vim	/^let s:FlagSet = {}$/;"	v
 s:GitStatusCacheTime	plugged/nerdtree-git-plugin/nerdtree_plugin/git_status.vim	/^let s:GitStatusCacheTime = 0$/;"	v
 s:GitStatusCacheTimeExpiry	plugged/nerdtree-git-plugin/nerdtree_plugin/git_status.vim	/^let s:GitStatusCacheTimeExpiry = 2$/;"	v
@@ -14980,7 +14981,6 @@ s:IN3	plugged/vim-airline-themes/autoload/airline/themes/jellybeans.vim	/^let s:
 s:IN3	plugged/vim-airline-themes/autoload/airline/themes/sierra.vim	/^let s:IN3 = [s:gui02, s:guiAlmostBlack, s:cterm02, s:ctermAlmostBlack]$/;"	v
 s:IN3	plugged/vim-airline-themes/autoload/airline/themes/vice.vim	/^let s:IN3 = [s:grey0[1], s:grey1[1], s:grey0[0], s:grey1[0] ]$/;"	v
 s:KeyMap	plugged/nerdtree/lib/nerdtree/key_map.vim	/^let s:KeyMap = {}$/;"	v
-s:KindheaderTag	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^let s:KindheaderTag = copy(g:tagbar#prototypes#basetag#BaseTag)$/;"	v
 s:Left	plugged/auto-pairs/plugin/auto-pairs.vim	/^let s:Left = s:Go."\\<LEFT>"$/;"	v
 s:MAX_COL_SIZE	plugged/ale/autoload/ale/highlight.vim	/^let s:MAX_COL_SIZE = 1073741824 " pow(2, 30)$/;"	v
 s:MAX_POS_VALUES	plugged/ale/autoload/ale/highlight.vim	/^let s:MAX_POS_VALUES = 8$/;"	v
@@ -15248,7 +15248,6 @@ s:NERDFileNameEscape	plugged/nerdcommenter/plugin/NERD_commenter.vim	/^let s:NER
 s:NERDTree	plugged/nerdtree/lib/nerdtree/nerdtree.vim	/^let s:NERDTree = {}$/;"	v
 s:NERDTreeIndicatorMap	plugged/nerdtree-git-plugin/nerdtree_plugin/git_status.vim	/^    let s:NERDTreeIndicatorMap = {$/;"	v
 s:NERDTreeSortStarIndex	plugged/nerdtree/lib/nerdtree/path.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
-s:NormalTag	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^let s:NormalTag = copy(g:tagbar#prototypes#basetag#BaseTag)$/;"	v
 s:Notifier	plugged/nerdtree/lib/nerdtree/notifier.vim	/^let s:Notifier = {}$/;"	v
 s:Opener	plugged/nerdtree/lib/nerdtree/opener.vim	/^let s:Opener = {}$/;"	v
 s:PA	plugged/vim-airline-themes/autoload/airline/themes/badwolf.vim	/^let s:PA = [ '#f4cf86' , 222 ]                   " dirtyblonde$/;"	v
@@ -15258,7 +15257,6 @@ s:PA	plugged/vim-airline-themes/autoload/airline/themes/term.vim	/^let s:PA = [ 
 s:PA	plugged/vim-airline-themes/autoload/airline/themes/ubaryd.vim	/^let s:PA = [ '#f9ef6d' , 154 ] " bleaklemon$/;"	v
 s:PA	plugged/vim-airline-themes/autoload/airline/themes/wombat.vim	/^let s:PA = [ '#94E42C' , 47 ]$/;"	v
 s:Path	plugged/nerdtree/lib/nerdtree/path.vim	/^let s:Path = {}$/;"	v
-s:PseudoTag	plugged/tagbar/autoload/tagbar/prototypes/pseudotag.vim	/^let s:PseudoTag = copy(g:tagbar#prototypes#basetag#BaseTag)$/;"	v
 s:R1	plugged/vim-airline-themes/autoload/airline/themes/alduin.vim	/^let s:R1 = [s:gui08, s:gui00, s:cterm08, s:cterm00]$/;"	v
 s:R1	plugged/vim-airline-themes/autoload/airline/themes/aurora.vim	/^let s:R1 = [ '#ffffff' , '#ff0000' , 231 , 196 ]$/;"	v
 s:R1	plugged/vim-airline-themes/autoload/airline/themes/badcat.vim	/^let s:R1 = [ s:guiOrange , s:guiBlack  , s:ctermOrange , s:ctermBlack  ]$/;"	v
@@ -15453,7 +15451,6 @@ s:SEVERITY_WARNING	plugged/ale/autoload/ale/lsp/response.vim	/^let s:SEVERITY_WA
 s:SNR	plugged/vim-easymotion/autoload/vital/easymotion.vim	/^let s:SNR = join(map(range(len("\\<SNR>")), '"[\\\\x" . printf("%0x", char2nr("\\<SNR>"[v:val])) . "]"'), '')$/;"	v
 s:ShiftTab	plugged/supertab/plugin/supertab.vim	/^        let s:ShiftTab = function(stab)$/;"	v
 s:ShiftTab	plugged/supertab/plugin/supertab.vim	/^      let s:ShiftTab = stab$/;"	v
-s:SplitTag	plugged/tagbar/autoload/tagbar/prototypes/splittag.vim	/^let s:SplitTag = copy(g:tagbar#prototypes#normaltag#NormalTag)$/;"	v
 s:State	plugged/tagbar/autoload/tagbar/state.vim	/^let s:State = {$/;"	v
 s:TRUE	plugged/vim-easymotion/autoload/EasyMotion.vim	/^let s:TRUE = !0$/;"	v
 s:TRUE	plugged/vim-easymotion/autoload/vital/_easymotion/Data/Set.vim	/^let s:TRUE = !0$/;"	v
@@ -15462,7 +15459,6 @@ s:TYPE	vimrcs/plug.vim	/^let s:TYPE = {$/;"	v
 s:Tab	plugged/supertab/plugin/supertab.vim	/^      let s:Tab = function(substitute(existing_tab, '()$', '', ''))$/;"	v
 s:TreeDirNode	plugged/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let s:TreeDirNode = copy(g:NERDTreeFileNode)$/;"	v
 s:TreeFileNode	plugged/nerdtree/lib/nerdtree/tree_file_node.vim	/^let s:TreeFileNode = {}$/;"	v
-s:TypeInfo	plugged/tagbar/autoload/tagbar/prototypes/typeinfo.vim	/^let s:TypeInfo = {}$/;"	v
 s:UI	plugged/nerdtree/lib/nerdtree/ui.vim	/^let s:UI = {}$/;"	v
 s:V	plugged/vim-easymotion/autoload/EasyMotion/command_line.vim	/^let s:V = vital#easymotion#new()$/;"	v
 s:V	plugged/vim-easymotion/autoload/EasyMotion/overwin.vim	/^let s:V = vital#easymotion#new()$/;"	v
@@ -17723,7 +17719,7 @@ s:pattern	plugged/tagbar/syntax/tagbar.vim	/^let s:pattern = '\\(\\S\\@<![' . s:
 s:pattern	plugged/tagbar/syntax/tagbar.vim	/^let s:pattern = '\\(\\S\\@<![' . s:ics . ' ]\\)\\@<=+\\([^-+# ]\\)\\@='$/;"	v
 s:pattern	plugged/tagbar/syntax/tagbar.vim	/^let s:pattern = '\\(\\S\\@<![' . s:ics . ' ]\\)\\@<=-\\([^-+# ]\\)\\@='$/;"	v
 s:pattern	plugged/tagbar/syntax/tagbar.vim	/^let s:pattern = '\\(\\S\\@<![' . s:ics . '][-+# ]\\?\\)\\@<=[^*(]\\+\\(\\*\\?\\(([^)]\\+)\\)\\? :\\)\\@='$/;"	v
-s:pattern	plugged/tagbar/syntax/tagbar.vim	/^let s:pattern = '\\(^[' . s:ics . '] \\?\\)\\@<=[^-+: ]\\+[^:]\\+$'$/;"	v
+s:pattern	plugged/tagbar/syntax/tagbar.vim	/^let s:pattern = '\\(^[' . s:ics . '] \\?\\)\\@3<=[^-+: ]\\+[^:]\\+$'$/;"	v
 s:pattern	plugged/tagbar/syntax/tagbar.vim	/^let s:pattern = '\\S\\@<![' . s:ics . ']\\([-+# ]\\?\\)\\@='$/;"	v
 s:paused	plugged/tagbar/autoload/tagbar.vim	/^let s:paused = 0$/;"	v
 s:pink	plugged/vim-airline-themes/autoload/airline/themes/distinguished.vim	/^let s:pink    = [131, '#af5f5f']$/;"	v
@@ -17898,6 +17894,7 @@ s:teal	plugged/vim-airline-themes/autoload/airline/themes/vice.vim	/^let s:teal 
 s:temp_buffer	plugged/vim-gitgutter/autoload/gitgutter/diff.vim	/^let s:temp_buffer = tempname()$/;"	v
 s:temp_dir	plugged/ale/autoload/ale/engine.vim	/^let s:temp_dir = fnamemodify(tempname(), ':h')$/;"	v
 s:temp_dir	plugged/ale/autoload/ale/handlers/haskell.vim	/^let s:temp_dir = fnamemodify(tempname(), ':h')$/;"	v
+s:temp_dir	plugged/ale/autoload/ale/path.vim	/^let s:temp_dir = fnamemodify(tempname(), ':h')$/;"	v
 s:temp_files	plugged/vim-fugitive/plugin/fugitive.vim	/^  let s:temp_files = {}$/;"	v
 s:temp_index	plugged/vim-gitgutter/autoload/gitgutter/diff.vim	/^let s:temp_index = tempname()$/;"	v
 s:temp_regex_prefix	plugged/ale/autoload/ale/handlers/haskell.vim	/^let s:temp_regex_prefix =$/;"	v
@@ -18107,6 +18104,7 @@ set.pop	plugged/vim-easymotion/autoload/vital/_easymotion/Data/Set.vim	/^functio
 set.remove	plugged/vim-easymotion/autoload/vital/_easymotion/Data/Set.vim	/^function! s:set.remove(e) abort$/;"	f
 set.symmetric_difference_update	plugged/vim-easymotion/autoload/vital/_easymotion/Data/Set.vim	/^function! s:set.symmetric_difference_update(t) abort$/;"	f
 set.update	plugged/vim-easymotion/autoload/vital/_easymotion/Data/Set.vim	/^function! s:set.update(iterable) abort$/;"	f
+setFolded	plugged/tagbar/autoload/tagbar/prototypes/basetag.vim	/^function! s:setFolded(folded) abort dict$/;"	f
 setUp	plugged/ultisnips/test/vim_test_case.py	/^    def setUp(self):$/;"	m	class:VimTestCase
 setUp	plugged/vim-test/spec/fixtures/maven/MathTest.java	/^	protected void setUp() throws Exception {$/;"	m	class:MathTest
 setUp	plugged/vim-test/spec/fixtures/maven/MathTestCase.java	/^	protected void setUp() throws Exception {$/;"	m	class:MathTestCase
@@ -18591,6 +18589,7 @@ sob	plugged/vim-easymotion/t/easymotion_spec.vim	/^        normal sob$/;"	m
 socksocket	plugged/vim-wakatime/plugin/packages/wakatime/packages/socks.py	/^class socksocket(_BaseSocket):$/;"	c
 something	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/data.py	/^    def something(token_class):$/;"	m	class:YamlLexer
 sort	plugged/vim-easymotion/autoload/vital/_easymotion/Data/List.vim	/^function! s:sort(list, expr) abort$/;"	f
+sortTags	plugged/tagbar/autoload/tagbar/prototypes/fileinfo.vim	/^function! s:sortTags(compare_typeinfo) abort dict$/;"	f
 sort_by	plugged/vim-easymotion/autoload/vital/_easymotion/Data/List.vim	/^function! s:sort_by(list, expr) abort$/;"	f
 sort_by_tick	plugged/vim-startify/autoload/startify.vim	/^function! s:sort_by_tick(one, two)$/;"	f
 sort_keys	plugged/vim-wakatime/plugin/packages/wakatime/packages/simplejson/_speedups.c	/^    PyObject *sort_keys;$/;"	m	struct:_PyEncoderObject	file:
@@ -18691,6 +18690,7 @@ stl	plugged/vim-airline/t/extensions_default.vim	/^    let stl = s:builder.build
 stopit	plugged/vim-autoformat/samples/python.py	/^    stopit=0     $/;"	v	class:SuckerThread
 store	plugged/vim-easymotion/autoload/vital/_easymotion/Vim/Guard.vim	/^function! s:store(targets) abort$/;"	f
 store_indent	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/clean.py	/^    def store_indent(lexer, match, ctx):$/;"	m	class:CleanLexer
+str	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:str(longsig, full) abort dict$/;"	f
 str	plugged/vim-wakatime/plugin/packages/wakatime/packages/configparser/helpers.py	/^str = type('str')$/;"	v
 str	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/compat.py	/^    str = str$/;"	v
 str	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/compat.py	/^    str = unicode$/;"	v
@@ -18699,6 +18699,8 @@ str_to_key56	plugged/vim-wakatime/plugin/packages/wakatime/packages/ntlm_auth/de
 stream	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/packages/urllib3/response.py	/^    def stream(self, amt=2**16, decode_content=None):$/;"	m	class:HTTPResponse
 stream_decode_response_unicode	plugged/vim-wakatime/plugin/packages/wakatime/packages/requests/utils.py	/^def stream_decode_response_unicode(iterator, r):$/;"	f
 streamer	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexer.py	/^        def streamer():$/;"	f	function:Lexer.get_tokens
+strfmt	plugged/tagbar/autoload/tagbar/prototypes/normaltag.vim	/^function! s:strfmt() abort dict$/;"	f
+strfmt	plugged/tagbar/autoload/tagbar/prototypes/pseudotag.vim	/^function! s:strfmt() abort dict$/;"	f
 strict	plugged/vim-wakatime/plugin/packages/wakatime/packages/simplejson/_speedups.c	/^    PyObject *strict;$/;"	m	struct:_PyScannerObject	file:
 string	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/asm.py	/^    string = r'"(\\\\"|[^"\\n])*"|' + r"'(\\\\'|[^'\\n])*'|" + r"`(\\\\`|[^`\\n])*`"$/;"	v	class:NasmLexer
 string	plugged/vim-wakatime/plugin/packages/wakatime/packages/pygments/lexers/asm.py	/^    string = r'"(\\\\"|[^"\\n])*"|' + r"'(\\\\'|[^'\\n])*'|" + r"`(\\\\`|[^`\\n])*`"$/;"	v	class:TasmLexer
@@ -19178,6 +19180,7 @@ to_s	vimrcs/plug.vim	/^function! s:to_s(v)$/;"	f
 to_string	plugged/vim-easymotion/autoload/vital/_easymotion/Over/Commandline/Modules/InsertRegister.vim	/^function! s:to_string(expr)$/;"	f
 to_vim	plugged/ultisnips/pythonx/UltiSnips/text_objects/_snippet_instance.py	/^    def to_vim(self):$/;"	m	class:_VimCursor
 to_vim_cursor	plugged/ultisnips/pythonx/UltiSnips/text_objects/_python_code.py	/^    def to_vim_cursor(self):$/;"	m	class:SnippetUtilCursor
+toggleFold	plugged/tagbar/autoload/tagbar/prototypes/kindheadertag.vim	/^function! s:toggleFold(fileinfo) abort dict$/;"	f
 toggleIgnoreFilter	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleIgnoreFilter()$/;"	f
 toggleShowBookmarks	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowBookmarks()$/;"	f
 toggleShowFiles	plugged/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowFiles()$/;"	f
