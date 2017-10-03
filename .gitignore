@@ -3,3 +3,4 @@ undodir/*
 !undodir/README.md
 plugged/*
 !plugged
+tags*
