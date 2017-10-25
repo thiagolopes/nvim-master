@@ -14,6 +14,9 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'Valloric/MatchTagAlways'
 Plug 'equalsraf/neovim-gui-shim'
 Plug 'mileszs/ack.vim'
+Plug 'sirver/UltiSnips'
+Plug 'honza/vim-snippets'
+Plug 'sheerun/vim-polyglot'
 set exrc
 set secure
 
@@ -23,6 +26,12 @@ set secure
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'airblade/vim-gitgutter'
+
+let g:gitgutter_sign_added = '·'
+let g:gitgutter_sign_modified = '·'
+let g:gitgutter_sign_removed = '·'
+let g:gitgutter_sign_removed_first_line = '·'
+let g:gitgutter_sign_modified_removed = '·'
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -54,3 +63,11 @@ set laststatus=2
 " Move to word
 map  <Leader><Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader><Leader>w <Plug>(easymotion-overwin-w)
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"

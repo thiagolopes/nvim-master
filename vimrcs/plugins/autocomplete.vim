@@ -14,7 +14,8 @@ Plug 'ervandew/supertab'
 Plug 'w0rp/ale'
 
 let g:ale_linters = {
-\   'python': ['flake8']
+\   'python': ['flake8'],
+\   'elm': []
 \}
 
 let g:airline#extensions#ale#enabled = 1
